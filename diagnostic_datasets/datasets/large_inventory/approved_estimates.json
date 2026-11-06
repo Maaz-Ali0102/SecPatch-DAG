@@ -1,0 +1,2130 @@
+{
+  "svc-001:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0001",
+    "duration_minutes": 22,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "low"
+  },
+  "svc-001:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0002",
+    "duration_minutes": 29,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "medium"
+  },
+  "svc-001:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0003",
+    "duration_minutes": 36,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "high"
+  },
+  "svc-001:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0004",
+    "duration_minutes": 43,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "critical"
+  },
+  "svc-002:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0005",
+    "duration_minutes": 50,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "low"
+  },
+  "svc-002:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0006",
+    "duration_minutes": 57,
+    "benefit": 87,
+    "priority": 87,
+    "risk": "medium"
+  },
+  "svc-002:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0007",
+    "duration_minutes": 64,
+    "benefit": 100,
+    "priority": 100,
+    "risk": "high"
+  },
+  "svc-002:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0008",
+    "duration_minutes": 16,
+    "benefit": 67,
+    "priority": 67,
+    "risk": "critical"
+  },
+  "svc-002:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0009",
+    "duration_minutes": 23,
+    "benefit": 80,
+    "priority": 80,
+    "risk": "low"
+  },
+  "svc-003:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0010",
+    "duration_minutes": 30,
+    "benefit": 93,
+    "priority": 93,
+    "risk": "medium"
+  },
+  "svc-003:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0011",
+    "duration_minutes": 37,
+    "benefit": 60,
+    "priority": 60,
+    "risk": "high"
+  },
+  "svc-003:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0012",
+    "duration_minutes": 44,
+    "benefit": 73,
+    "priority": 73,
+    "risk": "critical"
+  },
+  "svc-003:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0013",
+    "duration_minutes": 51,
+    "benefit": 86,
+    "priority": 86,
+    "risk": "low"
+  },
+  "svc-003:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0014",
+    "duration_minutes": 58,
+    "benefit": 99,
+    "priority": 99,
+    "risk": "medium"
+  },
+  "svc-004:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0015",
+    "duration_minutes": 65,
+    "benefit": 66,
+    "priority": 66,
+    "risk": "high"
+  },
+  "svc-004:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0016",
+    "duration_minutes": 17,
+    "benefit": 79,
+    "priority": 79,
+    "risk": "critical"
+  },
+  "svc-004:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0017",
+    "duration_minutes": 24,
+    "benefit": 92,
+    "priority": 92,
+    "risk": "low"
+  },
+  "svc-004:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0018",
+    "duration_minutes": 31,
+    "benefit": 59,
+    "priority": 59,
+    "risk": "medium"
+  },
+  "svc-004:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0019",
+    "duration_minutes": 38,
+    "benefit": 72,
+    "priority": 72,
+    "risk": "high"
+  },
+  "svc-005:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0020",
+    "duration_minutes": 45,
+    "benefit": 85,
+    "priority": 85,
+    "risk": "critical"
+  },
+  "svc-005:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0021",
+    "duration_minutes": 52,
+    "benefit": 98,
+    "priority": 98,
+    "risk": "low"
+  },
+  "svc-005:OSV-TEST-LARGE-PYPI-006": {
+    "id": "diag-large_inventory-0022",
+    "duration_minutes": 59,
+    "benefit": 65,
+    "priority": 65,
+    "risk": "medium"
+  },
+  "svc-005:OSV-TEST-LARGE-PYPI-007": {
+    "id": "diag-large_inventory-0023",
+    "duration_minutes": 66,
+    "benefit": 78,
+    "priority": 78,
+    "risk": "high"
+  },
+  "svc-005:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0024",
+    "duration_minutes": 18,
+    "benefit": 91,
+    "priority": 91,
+    "risk": "critical"
+  },
+  "svc-005:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0025",
+    "duration_minutes": 25,
+    "benefit": 58,
+    "priority": 58,
+    "risk": "low"
+  },
+  "svc-006:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0026",
+    "duration_minutes": 32,
+    "benefit": 71,
+    "priority": 71,
+    "risk": "medium"
+  },
+  "svc-006:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0027",
+    "duration_minutes": 39,
+    "benefit": 84,
+    "priority": 84,
+    "risk": "high"
+  },
+  "svc-006:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0028",
+    "duration_minutes": 46,
+    "benefit": 97,
+    "priority": 97,
+    "risk": "critical"
+  },
+  "svc-006:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0029",
+    "duration_minutes": 53,
+    "benefit": 64,
+    "priority": 64,
+    "risk": "low"
+  },
+  "svc-007:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0030",
+    "duration_minutes": 60,
+    "benefit": 77,
+    "priority": 77,
+    "risk": "medium"
+  },
+  "svc-007:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0031",
+    "duration_minutes": 67,
+    "benefit": 90,
+    "priority": 90,
+    "risk": "high"
+  },
+  "svc-007:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0032",
+    "duration_minutes": 19,
+    "benefit": 57,
+    "priority": 57,
+    "risk": "critical"
+  },
+  "svc-007:OSV-TEST-LARGE-PYPI-007": {
+    "id": "diag-large_inventory-0033",
+    "duration_minutes": 26,
+    "benefit": 70,
+    "priority": 70,
+    "risk": "low"
+  },
+  "svc-008:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0034",
+    "duration_minutes": 33,
+    "benefit": 83,
+    "priority": 83,
+    "risk": "medium"
+  },
+  "svc-008:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0035",
+    "duration_minutes": 40,
+    "benefit": 96,
+    "priority": 96,
+    "risk": "high"
+  },
+  "svc-008:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0036",
+    "duration_minutes": 47,
+    "benefit": 63,
+    "priority": 63,
+    "risk": "critical"
+  },
+  "svc-008:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0037",
+    "duration_minutes": 54,
+    "benefit": 76,
+    "priority": 76,
+    "risk": "low"
+  },
+  "svc-008:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0038",
+    "duration_minutes": 61,
+    "benefit": 89,
+    "priority": 89,
+    "risk": "medium"
+  },
+  "svc-008:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0039",
+    "duration_minutes": 68,
+    "benefit": 56,
+    "priority": 56,
+    "risk": "high"
+  },
+  "svc-009:OSV-TEST-LARGE-PYPI-008": {
+    "id": "diag-large_inventory-0040",
+    "duration_minutes": 20,
+    "benefit": 69,
+    "priority": 69,
+    "risk": "critical"
+  },
+  "svc-009:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0041",
+    "duration_minutes": 27,
+    "benefit": 82,
+    "priority": 82,
+    "risk": "low"
+  },
+  "svc-009:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0042",
+    "duration_minutes": 34,
+    "benefit": 95,
+    "priority": 95,
+    "risk": "medium"
+  },
+  "svc-009:OSV-TEST-LARGE-PYPI-007": {
+    "id": "diag-large_inventory-0043",
+    "duration_minutes": 41,
+    "benefit": 62,
+    "priority": 62,
+    "risk": "high"
+  },
+  "svc-009:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0044",
+    "duration_minutes": 48,
+    "benefit": 75,
+    "priority": 75,
+    "risk": "critical"
+  },
+  "svc-009:OSV-TEST-LARGE-PYPI-006": {
+    "id": "diag-large_inventory-0045",
+    "duration_minutes": 55,
+    "benefit": 88,
+    "priority": 88,
+    "risk": "low"
+  },
+  "svc-009:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0046",
+    "duration_minutes": 62,
+    "benefit": 55,
+    "priority": 55,
+    "risk": "medium"
+  },
+  "svc-010:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0047",
+    "duration_minutes": 69,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "high"
+  },
+  "svc-010:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0048",
+    "duration_minutes": 21,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "critical"
+  },
+  "svc-011:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0049",
+    "duration_minutes": 28,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "low"
+  },
+  "svc-011:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0050",
+    "duration_minutes": 35,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "medium"
+  },
+  "svc-011:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0051",
+    "duration_minutes": 42,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "high"
+  },
+  "svc-011:OSV-TEST-LARGE-PYPI-006": {
+    "id": "diag-large_inventory-0052",
+    "duration_minutes": 49,
+    "benefit": 87,
+    "priority": 87,
+    "risk": "critical"
+  },
+  "svc-011:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0053",
+    "duration_minutes": 56,
+    "benefit": 100,
+    "priority": 100,
+    "risk": "low"
+  },
+  "svc-011:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0054",
+    "duration_minutes": 63,
+    "benefit": 67,
+    "priority": 67,
+    "risk": "medium"
+  },
+  "svc-012:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0055",
+    "duration_minutes": 15,
+    "benefit": 80,
+    "priority": 80,
+    "risk": "high"
+  },
+  "svc-012:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0056",
+    "duration_minutes": 22,
+    "benefit": 93,
+    "priority": 93,
+    "risk": "critical"
+  },
+  "svc-012:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0057",
+    "duration_minutes": 29,
+    "benefit": 60,
+    "priority": 60,
+    "risk": "low"
+  },
+  "svc-012:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0058",
+    "duration_minutes": 36,
+    "benefit": 73,
+    "priority": 73,
+    "risk": "medium"
+  },
+  "svc-012:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0059",
+    "duration_minutes": 43,
+    "benefit": 86,
+    "priority": 86,
+    "risk": "high"
+  },
+  "svc-012:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0060",
+    "duration_minutes": 50,
+    "benefit": 99,
+    "priority": 99,
+    "risk": "critical"
+  },
+  "svc-012:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0061",
+    "duration_minutes": 57,
+    "benefit": 66,
+    "priority": 66,
+    "risk": "low"
+  },
+  "svc-013:OSV-TEST-LARGE-PYPI-007": {
+    "id": "diag-large_inventory-0062",
+    "duration_minutes": 64,
+    "benefit": 79,
+    "priority": 79,
+    "risk": "medium"
+  },
+  "svc-013:OSV-TEST-LARGE-PYPI-008": {
+    "id": "diag-large_inventory-0063",
+    "duration_minutes": 16,
+    "benefit": 92,
+    "priority": 92,
+    "risk": "high"
+  },
+  "svc-013:OSV-TEST-LARGE-PYPI-005": {
+    "id": "diag-large_inventory-0064",
+    "duration_minutes": 23,
+    "benefit": 59,
+    "priority": 59,
+    "risk": "critical"
+  },
+  "svc-013:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0065",
+    "duration_minutes": 30,
+    "benefit": 72,
+    "priority": 72,
+    "risk": "low"
+  },
+  "svc-014:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0066",
+    "duration_minutes": 37,
+    "benefit": 85,
+    "priority": 85,
+    "risk": "medium"
+  },
+  "svc-014:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0067",
+    "duration_minutes": 44,
+    "benefit": 98,
+    "priority": 98,
+    "risk": "high"
+  },
+  "svc-014:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0068",
+    "duration_minutes": 51,
+    "benefit": 65,
+    "priority": 65,
+    "risk": "critical"
+  },
+  "svc-014:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0069",
+    "duration_minutes": 58,
+    "benefit": 78,
+    "priority": 78,
+    "risk": "low"
+  },
+  "svc-015:OSV-TEST-LARGE-PYPI-006": {
+    "id": "diag-large_inventory-0070",
+    "duration_minutes": 65,
+    "benefit": 91,
+    "priority": 91,
+    "risk": "medium"
+  },
+  "svc-015:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0071",
+    "duration_minutes": 17,
+    "benefit": 58,
+    "priority": 58,
+    "risk": "high"
+  },
+  "svc-015:OSV-TEST-LARGE-PYPI-005": {
+    "id": "diag-large_inventory-0072",
+    "duration_minutes": 24,
+    "benefit": 71,
+    "priority": 71,
+    "risk": "critical"
+  },
+  "svc-015:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0073",
+    "duration_minutes": 31,
+    "benefit": 84,
+    "priority": 84,
+    "risk": "low"
+  },
+  "svc-015:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0074",
+    "duration_minutes": 38,
+    "benefit": 97,
+    "priority": 97,
+    "risk": "medium"
+  },
+  "svc-015:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0075",
+    "duration_minutes": 45,
+    "benefit": 64,
+    "priority": 64,
+    "risk": "high"
+  },
+  "svc-015:OSV-TEST-LARGE-PYPI-007": {
+    "id": "diag-large_inventory-0076",
+    "duration_minutes": 52,
+    "benefit": 77,
+    "priority": 77,
+    "risk": "critical"
+  },
+  "svc-015:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0077",
+    "duration_minutes": 59,
+    "benefit": 90,
+    "priority": 90,
+    "risk": "low"
+  },
+  "svc-016:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0078",
+    "duration_minutes": 66,
+    "benefit": 57,
+    "priority": 57,
+    "risk": "medium"
+  },
+  "svc-016:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0079",
+    "duration_minutes": 18,
+    "benefit": 70,
+    "priority": 70,
+    "risk": "high"
+  },
+  "svc-016:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0080",
+    "duration_minutes": 25,
+    "benefit": 83,
+    "priority": 83,
+    "risk": "critical"
+  },
+  "svc-016:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0081",
+    "duration_minutes": 32,
+    "benefit": 96,
+    "priority": 96,
+    "risk": "low"
+  },
+  "svc-016:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0082",
+    "duration_minutes": 39,
+    "benefit": 63,
+    "priority": 63,
+    "risk": "medium"
+  },
+  "svc-017:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0083",
+    "duration_minutes": 46,
+    "benefit": 76,
+    "priority": 76,
+    "risk": "high"
+  },
+  "svc-017:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0084",
+    "duration_minutes": 53,
+    "benefit": 89,
+    "priority": 89,
+    "risk": "critical"
+  },
+  "svc-017:OSV-TEST-LARGE-PYPI-006": {
+    "id": "diag-large_inventory-0085",
+    "duration_minutes": 60,
+    "benefit": 56,
+    "priority": 56,
+    "risk": "low"
+  },
+  "svc-017:OSV-TEST-LARGE-PYPI-008": {
+    "id": "diag-large_inventory-0086",
+    "duration_minutes": 67,
+    "benefit": 69,
+    "priority": 69,
+    "risk": "medium"
+  },
+  "svc-017:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0087",
+    "duration_minutes": 19,
+    "benefit": 82,
+    "priority": 82,
+    "risk": "high"
+  },
+  "svc-018:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0088",
+    "duration_minutes": 26,
+    "benefit": 95,
+    "priority": 95,
+    "risk": "critical"
+  },
+  "svc-018:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0089",
+    "duration_minutes": 33,
+    "benefit": 62,
+    "priority": 62,
+    "risk": "low"
+  },
+  "svc-018:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0090",
+    "duration_minutes": 40,
+    "benefit": 75,
+    "priority": 75,
+    "risk": "medium"
+  },
+  "svc-018:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0091",
+    "duration_minutes": 47,
+    "benefit": 88,
+    "priority": 88,
+    "risk": "high"
+  },
+  "svc-018:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0092",
+    "duration_minutes": 54,
+    "benefit": 55,
+    "priority": 55,
+    "risk": "critical"
+  },
+  "svc-018:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0093",
+    "duration_minutes": 61,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "low"
+  },
+  "svc-018:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0094",
+    "duration_minutes": 68,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "medium"
+  },
+  "svc-019:OSV-TEST-LARGE-PYPI-006": {
+    "id": "diag-large_inventory-0095",
+    "duration_minutes": 20,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "high"
+  },
+  "svc-019:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0096",
+    "duration_minutes": 27,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "critical"
+  },
+  "svc-019:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0097",
+    "duration_minutes": 34,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "low"
+  },
+  "svc-019:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0098",
+    "duration_minutes": 41,
+    "benefit": 87,
+    "priority": 87,
+    "risk": "medium"
+  },
+  "svc-020:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0099",
+    "duration_minutes": 48,
+    "benefit": 100,
+    "priority": 100,
+    "risk": "high"
+  },
+  "svc-020:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0100",
+    "duration_minutes": 55,
+    "benefit": 67,
+    "priority": 67,
+    "risk": "critical"
+  },
+  "svc-020:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0101",
+    "duration_minutes": 62,
+    "benefit": 80,
+    "priority": 80,
+    "risk": "low"
+  },
+  "svc-020:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0102",
+    "duration_minutes": 69,
+    "benefit": 93,
+    "priority": 93,
+    "risk": "medium"
+  },
+  "svc-020:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0103",
+    "duration_minutes": 21,
+    "benefit": 60,
+    "priority": 60,
+    "risk": "high"
+  },
+  "svc-020:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0104",
+    "duration_minutes": 28,
+    "benefit": 73,
+    "priority": 73,
+    "risk": "critical"
+  },
+  "svc-021:OSV-TEST-LARGE-PYPI-006": {
+    "id": "diag-large_inventory-0105",
+    "duration_minutes": 35,
+    "benefit": 86,
+    "priority": 86,
+    "risk": "low"
+  },
+  "svc-021:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0106",
+    "duration_minutes": 42,
+    "benefit": 99,
+    "priority": 99,
+    "risk": "medium"
+  },
+  "svc-021:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0107",
+    "duration_minutes": 49,
+    "benefit": 66,
+    "priority": 66,
+    "risk": "high"
+  },
+  "svc-021:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0108",
+    "duration_minutes": 56,
+    "benefit": 79,
+    "priority": 79,
+    "risk": "critical"
+  },
+  "svc-021:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0109",
+    "duration_minutes": 63,
+    "benefit": 92,
+    "priority": 92,
+    "risk": "low"
+  },
+  "svc-021:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0110",
+    "duration_minutes": 15,
+    "benefit": 59,
+    "priority": 59,
+    "risk": "medium"
+  },
+  "svc-022:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0111",
+    "duration_minutes": 22,
+    "benefit": 72,
+    "priority": 72,
+    "risk": "high"
+  },
+  "svc-022:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0112",
+    "duration_minutes": 29,
+    "benefit": 85,
+    "priority": 85,
+    "risk": "critical"
+  },
+  "svc-022:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0113",
+    "duration_minutes": 36,
+    "benefit": 98,
+    "priority": 98,
+    "risk": "low"
+  },
+  "svc-022:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0114",
+    "duration_minutes": 43,
+    "benefit": 65,
+    "priority": 65,
+    "risk": "medium"
+  },
+  "svc-023:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0115",
+    "duration_minutes": 50,
+    "benefit": 78,
+    "priority": 78,
+    "risk": "high"
+  },
+  "svc-023:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0116",
+    "duration_minutes": 57,
+    "benefit": 91,
+    "priority": 91,
+    "risk": "critical"
+  },
+  "svc-023:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0117",
+    "duration_minutes": 64,
+    "benefit": 58,
+    "priority": 58,
+    "risk": "low"
+  },
+  "svc-023:OSV-TEST-LARGE-PYPI-008": {
+    "id": "diag-large_inventory-0118",
+    "duration_minutes": 16,
+    "benefit": 71,
+    "priority": 71,
+    "risk": "medium"
+  },
+  "svc-024:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0119",
+    "duration_minutes": 23,
+    "benefit": 84,
+    "priority": 84,
+    "risk": "high"
+  },
+  "svc-024:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0120",
+    "duration_minutes": 30,
+    "benefit": 97,
+    "priority": 97,
+    "risk": "critical"
+  },
+  "svc-024:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0121",
+    "duration_minutes": 37,
+    "benefit": 64,
+    "priority": 64,
+    "risk": "low"
+  },
+  "svc-024:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0122",
+    "duration_minutes": 44,
+    "benefit": 77,
+    "priority": 77,
+    "risk": "medium"
+  },
+  "svc-024:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0123",
+    "duration_minutes": 51,
+    "benefit": 90,
+    "priority": 90,
+    "risk": "high"
+  },
+  "svc-024:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0124",
+    "duration_minutes": 58,
+    "benefit": 57,
+    "priority": 57,
+    "risk": "critical"
+  },
+  "svc-025:OSV-TEST-LARGE-PYPI-005": {
+    "id": "diag-large_inventory-0125",
+    "duration_minutes": 65,
+    "benefit": 70,
+    "priority": 70,
+    "risk": "low"
+  },
+  "svc-025:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0126",
+    "duration_minutes": 17,
+    "benefit": 83,
+    "priority": 83,
+    "risk": "medium"
+  },
+  "svc-025:OSV-TEST-LARGE-PYPI-006": {
+    "id": "diag-large_inventory-0127",
+    "duration_minutes": 24,
+    "benefit": 96,
+    "priority": 96,
+    "risk": "high"
+  },
+  "svc-026:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0128",
+    "duration_minutes": 31,
+    "benefit": 63,
+    "priority": 63,
+    "risk": "critical"
+  },
+  "svc-026:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0129",
+    "duration_minutes": 38,
+    "benefit": 76,
+    "priority": 76,
+    "risk": "low"
+  },
+  "svc-026:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0130",
+    "duration_minutes": 45,
+    "benefit": 89,
+    "priority": 89,
+    "risk": "medium"
+  },
+  "svc-026:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0131",
+    "duration_minutes": 52,
+    "benefit": 56,
+    "priority": 56,
+    "risk": "high"
+  },
+  "svc-027:OSV-TEST-LARGE-PYPI-008": {
+    "id": "diag-large_inventory-0132",
+    "duration_minutes": 59,
+    "benefit": 69,
+    "priority": 69,
+    "risk": "critical"
+  },
+  "svc-027:OSV-TEST-LARGE-PYPI-005": {
+    "id": "diag-large_inventory-0133",
+    "duration_minutes": 66,
+    "benefit": 82,
+    "priority": 82,
+    "risk": "low"
+  },
+  "svc-027:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0134",
+    "duration_minutes": 18,
+    "benefit": 95,
+    "priority": 95,
+    "risk": "medium"
+  },
+  "svc-027:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0135",
+    "duration_minutes": 25,
+    "benefit": 62,
+    "priority": 62,
+    "risk": "high"
+  },
+  "svc-027:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0136",
+    "duration_minutes": 32,
+    "benefit": 75,
+    "priority": 75,
+    "risk": "critical"
+  },
+  "svc-027:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0137",
+    "duration_minutes": 39,
+    "benefit": 88,
+    "priority": 88,
+    "risk": "low"
+  },
+  "svc-027:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0138",
+    "duration_minutes": 46,
+    "benefit": 55,
+    "priority": 55,
+    "risk": "medium"
+  },
+  "svc-028:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0139",
+    "duration_minutes": 53,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "high"
+  },
+  "svc-028:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0140",
+    "duration_minutes": 60,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "critical"
+  },
+  "svc-028:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0141",
+    "duration_minutes": 67,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "low"
+  },
+  "svc-028:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0142",
+    "duration_minutes": 19,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "medium"
+  },
+  "svc-029:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0143",
+    "duration_minutes": 26,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "high"
+  },
+  "svc-029:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0144",
+    "duration_minutes": 33,
+    "benefit": 87,
+    "priority": 87,
+    "risk": "critical"
+  },
+  "svc-029:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0145",
+    "duration_minutes": 40,
+    "benefit": 100,
+    "priority": 100,
+    "risk": "low"
+  },
+  "svc-029:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0146",
+    "duration_minutes": 47,
+    "benefit": 67,
+    "priority": 67,
+    "risk": "medium"
+  },
+  "svc-029:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0147",
+    "duration_minutes": 54,
+    "benefit": 80,
+    "priority": 80,
+    "risk": "high"
+  },
+  "svc-030:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0148",
+    "duration_minutes": 61,
+    "benefit": 93,
+    "priority": 93,
+    "risk": "critical"
+  },
+  "svc-030:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0149",
+    "duration_minutes": 68,
+    "benefit": 60,
+    "priority": 60,
+    "risk": "low"
+  },
+  "svc-030:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0150",
+    "duration_minutes": 20,
+    "benefit": 73,
+    "priority": 73,
+    "risk": "medium"
+  },
+  "svc-030:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0151",
+    "duration_minutes": 27,
+    "benefit": 86,
+    "priority": 86,
+    "risk": "high"
+  },
+  "svc-030:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0152",
+    "duration_minutes": 34,
+    "benefit": 99,
+    "priority": 99,
+    "risk": "critical"
+  },
+  "svc-030:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0153",
+    "duration_minutes": 41,
+    "benefit": 66,
+    "priority": 66,
+    "risk": "low"
+  },
+  "svc-031:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0154",
+    "duration_minutes": 48,
+    "benefit": 79,
+    "priority": 79,
+    "risk": "medium"
+  },
+  "svc-031:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0155",
+    "duration_minutes": 55,
+    "benefit": 92,
+    "priority": 92,
+    "risk": "high"
+  },
+  "svc-031:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0156",
+    "duration_minutes": 62,
+    "benefit": 59,
+    "priority": 59,
+    "risk": "critical"
+  },
+  "svc-031:OSV-TEST-LARGE-PYPI-008": {
+    "id": "diag-large_inventory-0157",
+    "duration_minutes": 69,
+    "benefit": 72,
+    "priority": 72,
+    "risk": "low"
+  },
+  "svc-031:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0158",
+    "duration_minutes": 21,
+    "benefit": 85,
+    "priority": 85,
+    "risk": "medium"
+  },
+  "svc-031:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0159",
+    "duration_minutes": 28,
+    "benefit": 98,
+    "priority": 98,
+    "risk": "high"
+  },
+  "svc-032:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0160",
+    "duration_minutes": 35,
+    "benefit": 65,
+    "priority": 65,
+    "risk": "critical"
+  },
+  "svc-032:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0161",
+    "duration_minutes": 42,
+    "benefit": 78,
+    "priority": 78,
+    "risk": "low"
+  },
+  "svc-032:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0162",
+    "duration_minutes": 49,
+    "benefit": 91,
+    "priority": 91,
+    "risk": "medium"
+  },
+  "svc-032:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0163",
+    "duration_minutes": 56,
+    "benefit": 58,
+    "priority": 58,
+    "risk": "high"
+  },
+  "svc-032:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0164",
+    "duration_minutes": 63,
+    "benefit": 71,
+    "priority": 71,
+    "risk": "critical"
+  },
+  "svc-032:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0165",
+    "duration_minutes": 15,
+    "benefit": 84,
+    "priority": 84,
+    "risk": "low"
+  },
+  "svc-033:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0166",
+    "duration_minutes": 22,
+    "benefit": 97,
+    "priority": 97,
+    "risk": "medium"
+  },
+  "svc-033:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0167",
+    "duration_minutes": 29,
+    "benefit": 64,
+    "priority": 64,
+    "risk": "high"
+  },
+  "svc-033:OSV-TEST-LARGE-PYPI-007": {
+    "id": "diag-large_inventory-0168",
+    "duration_minutes": 36,
+    "benefit": 77,
+    "priority": 77,
+    "risk": "critical"
+  },
+  "svc-033:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0169",
+    "duration_minutes": 43,
+    "benefit": 90,
+    "priority": 90,
+    "risk": "low"
+  },
+  "svc-033:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0170",
+    "duration_minutes": 50,
+    "benefit": 57,
+    "priority": 57,
+    "risk": "medium"
+  },
+  "svc-033:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0171",
+    "duration_minutes": 57,
+    "benefit": 70,
+    "priority": 70,
+    "risk": "high"
+  },
+  "svc-033:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0172",
+    "duration_minutes": 64,
+    "benefit": 83,
+    "priority": 83,
+    "risk": "critical"
+  },
+  "svc-034:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0173",
+    "duration_minutes": 16,
+    "benefit": 96,
+    "priority": 96,
+    "risk": "low"
+  },
+  "svc-034:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0174",
+    "duration_minutes": 23,
+    "benefit": 63,
+    "priority": 63,
+    "risk": "medium"
+  },
+  "svc-034:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0175",
+    "duration_minutes": 30,
+    "benefit": 76,
+    "priority": 76,
+    "risk": "high"
+  },
+  "svc-034:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0176",
+    "duration_minutes": 37,
+    "benefit": 89,
+    "priority": 89,
+    "risk": "critical"
+  },
+  "svc-034:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0177",
+    "duration_minutes": 44,
+    "benefit": 56,
+    "priority": 56,
+    "risk": "low"
+  },
+  "svc-035:OSV-TEST-LARGE-PYPI-005": {
+    "id": "diag-large_inventory-0178",
+    "duration_minutes": 51,
+    "benefit": 69,
+    "priority": 69,
+    "risk": "medium"
+  },
+  "svc-035:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0179",
+    "duration_minutes": 58,
+    "benefit": 82,
+    "priority": 82,
+    "risk": "high"
+  },
+  "svc-035:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0180",
+    "duration_minutes": 65,
+    "benefit": 95,
+    "priority": 95,
+    "risk": "critical"
+  },
+  "svc-035:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0181",
+    "duration_minutes": 17,
+    "benefit": 62,
+    "priority": 62,
+    "risk": "low"
+  },
+  "svc-036:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0182",
+    "duration_minutes": 24,
+    "benefit": 75,
+    "priority": 75,
+    "risk": "medium"
+  },
+  "svc-036:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0183",
+    "duration_minutes": 31,
+    "benefit": 88,
+    "priority": 88,
+    "risk": "high"
+  },
+  "svc-036:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0184",
+    "duration_minutes": 38,
+    "benefit": 55,
+    "priority": 55,
+    "risk": "critical"
+  },
+  "svc-036:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0185",
+    "duration_minutes": 45,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "low"
+  },
+  "svc-036:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0186",
+    "duration_minutes": 52,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "medium"
+  },
+  "svc-036:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0187",
+    "duration_minutes": 59,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "high"
+  },
+  "svc-036:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0188",
+    "duration_minutes": 66,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "critical"
+  },
+  "svc-037:OSV-TEST-LARGE-PYPI-005": {
+    "id": "diag-large_inventory-0189",
+    "duration_minutes": 18,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "low"
+  },
+  "svc-037:OSV-TEST-LARGE-PYPI-008": {
+    "id": "diag-large_inventory-0190",
+    "duration_minutes": 25,
+    "benefit": 87,
+    "priority": 87,
+    "risk": "medium"
+  },
+  "svc-037:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0191",
+    "duration_minutes": 32,
+    "benefit": 100,
+    "priority": 100,
+    "risk": "high"
+  },
+  "svc-037:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0192",
+    "duration_minutes": 39,
+    "benefit": 67,
+    "priority": 67,
+    "risk": "critical"
+  },
+  "svc-037:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0193",
+    "duration_minutes": 46,
+    "benefit": 80,
+    "priority": 80,
+    "risk": "low"
+  },
+  "svc-037:OSV-TEST-LARGE-PYPI-006": {
+    "id": "diag-large_inventory-0194",
+    "duration_minutes": 53,
+    "benefit": 93,
+    "priority": 93,
+    "risk": "medium"
+  },
+  "svc-038:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0195",
+    "duration_minutes": 60,
+    "benefit": 60,
+    "priority": 60,
+    "risk": "high"
+  },
+  "svc-038:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0196",
+    "duration_minutes": 67,
+    "benefit": 73,
+    "priority": 73,
+    "risk": "critical"
+  },
+  "svc-038:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0197",
+    "duration_minutes": 19,
+    "benefit": 86,
+    "priority": 86,
+    "risk": "low"
+  },
+  "svc-038:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0198",
+    "duration_minutes": 26,
+    "benefit": 99,
+    "priority": 99,
+    "risk": "medium"
+  },
+  "svc-038:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0199",
+    "duration_minutes": 33,
+    "benefit": 66,
+    "priority": 66,
+    "risk": "high"
+  },
+  "svc-039:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0200",
+    "duration_minutes": 40,
+    "benefit": 79,
+    "priority": 79,
+    "risk": "critical"
+  },
+  "svc-039:OSV-TEST-LARGE-PYPI-008": {
+    "id": "diag-large_inventory-0201",
+    "duration_minutes": 47,
+    "benefit": 92,
+    "priority": 92,
+    "risk": "low"
+  },
+  "svc-039:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0202",
+    "duration_minutes": 54,
+    "benefit": 59,
+    "priority": 59,
+    "risk": "medium"
+  },
+  "svc-039:OSV-TEST-LARGE-PYPI-007": {
+    "id": "diag-large_inventory-0203",
+    "duration_minutes": 61,
+    "benefit": 72,
+    "priority": 72,
+    "risk": "high"
+  },
+  "svc-039:OSV-TEST-LARGE-PYPI-005": {
+    "id": "diag-large_inventory-0204",
+    "duration_minutes": 68,
+    "benefit": 85,
+    "priority": 85,
+    "risk": "critical"
+  },
+  "svc-040:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0205",
+    "duration_minutes": 20,
+    "benefit": 98,
+    "priority": 98,
+    "risk": "low"
+  },
+  "svc-040:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0206",
+    "duration_minutes": 27,
+    "benefit": 65,
+    "priority": 65,
+    "risk": "medium"
+  },
+  "svc-040:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0207",
+    "duration_minutes": 34,
+    "benefit": 78,
+    "priority": 78,
+    "risk": "high"
+  },
+  "svc-040:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0208",
+    "duration_minutes": 41,
+    "benefit": 91,
+    "priority": 91,
+    "risk": "critical"
+  },
+  "svc-040:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0209",
+    "duration_minutes": 48,
+    "benefit": 58,
+    "priority": 58,
+    "risk": "low"
+  },
+  "svc-041:OSV-TEST-LARGE-PYPI-005": {
+    "id": "diag-large_inventory-0210",
+    "duration_minutes": 55,
+    "benefit": 71,
+    "priority": 71,
+    "risk": "medium"
+  },
+  "svc-041:OSV-TEST-LARGE-PYPI-007": {
+    "id": "diag-large_inventory-0211",
+    "duration_minutes": 62,
+    "benefit": 84,
+    "priority": 84,
+    "risk": "high"
+  },
+  "svc-041:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0212",
+    "duration_minutes": 69,
+    "benefit": 97,
+    "priority": 97,
+    "risk": "critical"
+  },
+  "svc-041:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0213",
+    "duration_minutes": 21,
+    "benefit": 64,
+    "priority": 64,
+    "risk": "low"
+  },
+  "svc-042:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0214",
+    "duration_minutes": 28,
+    "benefit": 77,
+    "priority": 77,
+    "risk": "medium"
+  },
+  "svc-042:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0215",
+    "duration_minutes": 35,
+    "benefit": 90,
+    "priority": 90,
+    "risk": "high"
+  },
+  "svc-042:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0216",
+    "duration_minutes": 42,
+    "benefit": 57,
+    "priority": 57,
+    "risk": "critical"
+  },
+  "svc-042:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0217",
+    "duration_minutes": 49,
+    "benefit": 70,
+    "priority": 70,
+    "risk": "low"
+  },
+  "svc-042:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0218",
+    "duration_minutes": 56,
+    "benefit": 83,
+    "priority": 83,
+    "risk": "medium"
+  },
+  "svc-043:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0219",
+    "duration_minutes": 63,
+    "benefit": 96,
+    "priority": 96,
+    "risk": "high"
+  },
+  "svc-043:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0220",
+    "duration_minutes": 15,
+    "benefit": 63,
+    "priority": 63,
+    "risk": "critical"
+  },
+  "svc-043:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0221",
+    "duration_minutes": 22,
+    "benefit": 76,
+    "priority": 76,
+    "risk": "low"
+  },
+  "svc-043:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0222",
+    "duration_minutes": 29,
+    "benefit": 89,
+    "priority": 89,
+    "risk": "medium"
+  },
+  "svc-043:OSV-TEST-LARGE-PYPI-005": {
+    "id": "diag-large_inventory-0223",
+    "duration_minutes": 36,
+    "benefit": 56,
+    "priority": 56,
+    "risk": "high"
+  },
+  "svc-043:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0224",
+    "duration_minutes": 43,
+    "benefit": 69,
+    "priority": 69,
+    "risk": "critical"
+  },
+  "svc-044:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0225",
+    "duration_minutes": 50,
+    "benefit": 82,
+    "priority": 82,
+    "risk": "low"
+  },
+  "svc-044:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0226",
+    "duration_minutes": 57,
+    "benefit": 95,
+    "priority": 95,
+    "risk": "medium"
+  },
+  "svc-044:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0227",
+    "duration_minutes": 64,
+    "benefit": 62,
+    "priority": 62,
+    "risk": "high"
+  },
+  "svc-044:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0228",
+    "duration_minutes": 16,
+    "benefit": 75,
+    "priority": 75,
+    "risk": "critical"
+  },
+  "svc-044:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0229",
+    "duration_minutes": 23,
+    "benefit": 88,
+    "priority": 88,
+    "risk": "low"
+  },
+  "svc-045:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0230",
+    "duration_minutes": 30,
+    "benefit": 55,
+    "priority": 55,
+    "risk": "medium"
+  },
+  "svc-045:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0231",
+    "duration_minutes": 37,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "high"
+  },
+  "svc-045:OSV-TEST-LARGE-PYPI-006": {
+    "id": "diag-large_inventory-0232",
+    "duration_minutes": 44,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "critical"
+  },
+  "svc-045:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0233",
+    "duration_minutes": 51,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "low"
+  },
+  "svc-045:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0234",
+    "duration_minutes": 58,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "medium"
+  },
+  "svc-046:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0235",
+    "duration_minutes": 65,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "high"
+  },
+  "svc-046:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0236",
+    "duration_minutes": 17,
+    "benefit": 87,
+    "priority": 87,
+    "risk": "critical"
+  },
+  "svc-046:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0237",
+    "duration_minutes": 24,
+    "benefit": 100,
+    "priority": 100,
+    "risk": "low"
+  },
+  "svc-046:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0238",
+    "duration_minutes": 31,
+    "benefit": 67,
+    "priority": 67,
+    "risk": "medium"
+  },
+  "svc-046:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0239",
+    "duration_minutes": 38,
+    "benefit": 80,
+    "priority": 80,
+    "risk": "high"
+  },
+  "svc-046:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0240",
+    "duration_minutes": 45,
+    "benefit": 93,
+    "priority": 93,
+    "risk": "critical"
+  },
+  "svc-047:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0241",
+    "duration_minutes": 52,
+    "benefit": 60,
+    "priority": 60,
+    "risk": "low"
+  },
+  "svc-047:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0242",
+    "duration_minutes": 59,
+    "benefit": 73,
+    "priority": 73,
+    "risk": "medium"
+  },
+  "svc-047:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0243",
+    "duration_minutes": 66,
+    "benefit": 86,
+    "priority": 86,
+    "risk": "high"
+  },
+  "svc-048:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0244",
+    "duration_minutes": 18,
+    "benefit": 99,
+    "priority": 99,
+    "risk": "critical"
+  },
+  "svc-048:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0245",
+    "duration_minutes": 25,
+    "benefit": 66,
+    "priority": 66,
+    "risk": "low"
+  },
+  "svc-048:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0246",
+    "duration_minutes": 32,
+    "benefit": 79,
+    "priority": 79,
+    "risk": "medium"
+  },
+  "svc-048:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0247",
+    "duration_minutes": 39,
+    "benefit": 92,
+    "priority": 92,
+    "risk": "high"
+  },
+  "svc-049:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0248",
+    "duration_minutes": 46,
+    "benefit": 59,
+    "priority": 59,
+    "risk": "critical"
+  },
+  "svc-049:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0249",
+    "duration_minutes": 53,
+    "benefit": 72,
+    "priority": 72,
+    "risk": "low"
+  },
+  "svc-049:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0250",
+    "duration_minutes": 60,
+    "benefit": 85,
+    "priority": 85,
+    "risk": "medium"
+  },
+  "svc-049:OSV-TEST-LARGE-PYPI-007": {
+    "id": "diag-large_inventory-0251",
+    "duration_minutes": 67,
+    "benefit": 98,
+    "priority": 98,
+    "risk": "high"
+  },
+  "svc-049:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0252",
+    "duration_minutes": 19,
+    "benefit": 65,
+    "priority": 65,
+    "risk": "critical"
+  },
+  "svc-050:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0253",
+    "duration_minutes": 26,
+    "benefit": 78,
+    "priority": 78,
+    "risk": "low"
+  },
+  "svc-050:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0254",
+    "duration_minutes": 33,
+    "benefit": 91,
+    "priority": 91,
+    "risk": "medium"
+  },
+  "svc-050:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0255",
+    "duration_minutes": 40,
+    "benefit": 58,
+    "priority": 58,
+    "risk": "high"
+  },
+  "svc-050:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0256",
+    "duration_minutes": 47,
+    "benefit": 71,
+    "priority": 71,
+    "risk": "critical"
+  },
+  "svc-051:OSV-TEST-LARGE-PYPI-008": {
+    "id": "diag-large_inventory-0257",
+    "duration_minutes": 54,
+    "benefit": 84,
+    "priority": 84,
+    "risk": "low"
+  },
+  "svc-051:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0258",
+    "duration_minutes": 61,
+    "benefit": 97,
+    "priority": 97,
+    "risk": "medium"
+  },
+  "svc-051:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0259",
+    "duration_minutes": 68,
+    "benefit": 64,
+    "priority": 64,
+    "risk": "high"
+  },
+  "svc-051:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0260",
+    "duration_minutes": 20,
+    "benefit": 77,
+    "priority": 77,
+    "risk": "critical"
+  },
+  "svc-051:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0261",
+    "duration_minutes": 27,
+    "benefit": 90,
+    "priority": 90,
+    "risk": "low"
+  },
+  "svc-051:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0262",
+    "duration_minutes": 34,
+    "benefit": 57,
+    "priority": 57,
+    "risk": "medium"
+  },
+  "svc-051:OSV-TEST-LARGE-PYPI-006": {
+    "id": "diag-large_inventory-0263",
+    "duration_minutes": 41,
+    "benefit": 70,
+    "priority": 70,
+    "risk": "high"
+  },
+  "svc-052:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0264",
+    "duration_minutes": 48,
+    "benefit": 83,
+    "priority": 83,
+    "risk": "critical"
+  },
+  "svc-052:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0265",
+    "duration_minutes": 55,
+    "benefit": 96,
+    "priority": 96,
+    "risk": "low"
+  },
+  "svc-052:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0266",
+    "duration_minutes": 62,
+    "benefit": 63,
+    "priority": 63,
+    "risk": "medium"
+  },
+  "svc-052:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0267",
+    "duration_minutes": 69,
+    "benefit": 76,
+    "priority": 76,
+    "risk": "high"
+  },
+  "svc-053:OSV-TEST-LARGE-PYPI-004": {
+    "id": "diag-large_inventory-0268",
+    "duration_minutes": 21,
+    "benefit": 89,
+    "priority": 89,
+    "risk": "critical"
+  },
+  "svc-053:OSV-TEST-LARGE-PYPI-005": {
+    "id": "diag-large_inventory-0269",
+    "duration_minutes": 28,
+    "benefit": 56,
+    "priority": 56,
+    "risk": "low"
+  },
+  "svc-053:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0270",
+    "duration_minutes": 35,
+    "benefit": 69,
+    "priority": 69,
+    "risk": "medium"
+  },
+  "svc-053:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0271",
+    "duration_minutes": 42,
+    "benefit": 82,
+    "priority": 82,
+    "risk": "high"
+  },
+  "svc-053:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0272",
+    "duration_minutes": 49,
+    "benefit": 95,
+    "priority": 95,
+    "risk": "critical"
+  },
+  "svc-054:OSV-TEST-LARGE-NPM-008": {
+    "id": "diag-large_inventory-0273",
+    "duration_minutes": 56,
+    "benefit": 62,
+    "priority": 62,
+    "risk": "low"
+  },
+  "svc-054:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0274",
+    "duration_minutes": 63,
+    "benefit": 75,
+    "priority": 75,
+    "risk": "medium"
+  },
+  "svc-054:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0275",
+    "duration_minutes": 15,
+    "benefit": 88,
+    "priority": 88,
+    "risk": "high"
+  },
+  "svc-054:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0276",
+    "duration_minutes": 22,
+    "benefit": 55,
+    "priority": 55,
+    "risk": "critical"
+  },
+  "svc-054:OSV-TEST-LARGE-NPM-001": {
+    "id": "diag-large_inventory-0277",
+    "duration_minutes": 29,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "low"
+  },
+  "svc-054:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0278",
+    "duration_minutes": 36,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "medium"
+  },
+  "svc-055:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0279",
+    "duration_minutes": 43,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "high"
+  },
+  "svc-055:OSV-TEST-LARGE-PYPI-009": {
+    "id": "diag-large_inventory-0280",
+    "duration_minutes": 50,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "critical"
+  },
+  "svc-055:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0281",
+    "duration_minutes": 57,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "low"
+  },
+  "svc-055:OSV-TEST-LARGE-PYPI-001": {
+    "id": "diag-large_inventory-0282",
+    "duration_minutes": 64,
+    "benefit": 87,
+    "priority": 87,
+    "risk": "medium"
+  },
+  "svc-056:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0283",
+    "duration_minutes": 16,
+    "benefit": 100,
+    "priority": 100,
+    "risk": "high"
+  },
+  "svc-056:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0284",
+    "duration_minutes": 23,
+    "benefit": 67,
+    "priority": 67,
+    "risk": "critical"
+  },
+  "svc-056:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0285",
+    "duration_minutes": 30,
+    "benefit": 80,
+    "priority": 80,
+    "risk": "low"
+  },
+  "svc-057:OSV-TEST-LARGE-PYPI-012": {
+    "id": "diag-large_inventory-0286",
+    "duration_minutes": 37,
+    "benefit": 93,
+    "priority": 93,
+    "risk": "medium"
+  },
+  "svc-057:OSV-TEST-LARGE-PYPI-011": {
+    "id": "diag-large_inventory-0287",
+    "duration_minutes": 44,
+    "benefit": 60,
+    "priority": 60,
+    "risk": "high"
+  },
+  "svc-057:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0288",
+    "duration_minutes": 51,
+    "benefit": 73,
+    "priority": 73,
+    "risk": "critical"
+  },
+  "svc-057:OSV-TEST-LARGE-PYPI-008": {
+    "id": "diag-large_inventory-0289",
+    "duration_minutes": 58,
+    "benefit": 86,
+    "priority": 86,
+    "risk": "low"
+  },
+  "svc-057:OSV-TEST-LARGE-PYPI-005": {
+    "id": "diag-large_inventory-0290",
+    "duration_minutes": 65,
+    "benefit": 99,
+    "priority": 99,
+    "risk": "medium"
+  },
+  "svc-058:OSV-TEST-LARGE-NPM-003": {
+    "id": "diag-large_inventory-0291",
+    "duration_minutes": 17,
+    "benefit": 66,
+    "priority": 66,
+    "risk": "high"
+  },
+  "svc-058:OSV-TEST-LARGE-NPM-007": {
+    "id": "diag-large_inventory-0292",
+    "duration_minutes": 24,
+    "benefit": 79,
+    "priority": 79,
+    "risk": "critical"
+  },
+  "svc-058:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0293",
+    "duration_minutes": 31,
+    "benefit": 92,
+    "priority": 92,
+    "risk": "low"
+  },
+  "svc-058:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0294",
+    "duration_minutes": 38,
+    "benefit": 59,
+    "priority": 59,
+    "risk": "medium"
+  },
+  "svc-058:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0295",
+    "duration_minutes": 45,
+    "benefit": 72,
+    "priority": 72,
+    "risk": "high"
+  },
+  "svc-058:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0296",
+    "duration_minutes": 52,
+    "benefit": 85,
+    "priority": 85,
+    "risk": "critical"
+  },
+  "svc-059:OSV-TEST-LARGE-PYPI-010": {
+    "id": "diag-large_inventory-0297",
+    "duration_minutes": 59,
+    "benefit": 98,
+    "priority": 98,
+    "risk": "low"
+  },
+  "svc-059:OSV-TEST-LARGE-PYPI-008": {
+    "id": "diag-large_inventory-0298",
+    "duration_minutes": 66,
+    "benefit": 65,
+    "priority": 65,
+    "risk": "medium"
+  },
+  "svc-059:OSV-TEST-LARGE-PYPI-003": {
+    "id": "diag-large_inventory-0299",
+    "duration_minutes": 18,
+    "benefit": 78,
+    "priority": 78,
+    "risk": "high"
+  },
+  "svc-059:OSV-TEST-LARGE-PYPI-002": {
+    "id": "diag-large_inventory-0300",
+    "duration_minutes": 25,
+    "benefit": 91,
+    "priority": 91,
+    "risk": "critical"
+  },
+  "svc-060:OSV-TEST-LARGE-NPM-004": {
+    "id": "diag-large_inventory-0301",
+    "duration_minutes": 32,
+    "benefit": 58,
+    "priority": 58,
+    "risk": "low"
+  },
+  "svc-060:OSV-TEST-LARGE-NPM-002": {
+    "id": "diag-large_inventory-0302",
+    "duration_minutes": 39,
+    "benefit": 71,
+    "priority": 71,
+    "risk": "medium"
+  },
+  "svc-060:OSV-TEST-LARGE-NPM-005": {
+    "id": "diag-large_inventory-0303",
+    "duration_minutes": 46,
+    "benefit": 84,
+    "priority": 84,
+    "risk": "high"
+  },
+  "svc-060:OSV-TEST-LARGE-NPM-006": {
+    "id": "diag-large_inventory-0304",
+    "duration_minutes": 53,
+    "benefit": 97,
+    "priority": 97,
+    "risk": "critical"
+  }
+}

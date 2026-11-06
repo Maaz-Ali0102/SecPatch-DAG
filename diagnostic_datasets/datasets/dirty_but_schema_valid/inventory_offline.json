@@ -1,0 +1,40 @@
+{
+  "packages": [
+    {
+      "asset_id": "dirty-api",
+      "ecosystem": "PyPI",
+      "name": "requests",
+      "version": "not-a-valid-version"
+    },
+    {
+      "asset_id": "dirty-api",
+      "ecosystem": "PyPI",
+      "name": "urllib3",
+      "version": "1.26.5"
+    },
+    {
+      "asset_id": "dirty-worker",
+      "ecosystem": "PyPI",
+      "name": "cryptography",
+      "version": null
+    },
+    {
+      "asset_id": "dirty-worker",
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "4.17.15"
+    },
+    {
+      "asset_id": "dirty-edge",
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "4.18.2"
+    },
+    {
+      "asset_id": "dirty-edge",
+      "ecosystem": "PyPI",
+      "name": "package-not-in-osv",
+      "version": "1.0.0"
+    }
+  ]
+}

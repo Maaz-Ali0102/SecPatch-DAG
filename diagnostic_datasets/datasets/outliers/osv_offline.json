@@ -1,0 +1,208 @@
+{
+  "vulns": [
+    {
+      "id": "OSV-TEST-OUT-0001",
+      "aliases": [
+        "GHSA-test-out-0001"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting requests",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "requests"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "2.0.0"
+                },
+                {
+                  "fixed": "2.28.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-OUT-0002",
+      "aliases": [
+        "GHSA-test-out-0002"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting urllib3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "urllib3"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "1.0.0"
+                },
+                {
+                  "fixed": "1.26.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-OUT-0003",
+      "aliases": [
+        "GHSA-test-out-0003"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting lodash",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "lodash"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "4.0.0"
+                },
+                {
+                  "fixed": "4.17.21"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-OUT-0004",
+      "aliases": [
+        "GHSA-test-out-0004"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting axios",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "axios"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "0.21.4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-OUT-0005",
+      "aliases": [
+        "GHSA-test-out-0005"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting pyyaml",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "pyyaml"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "5.0.0"
+                },
+                {
+                  "fixed": "5.4.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-OUT-0006",
+      "aliases": [
+        "GHSA-test-out-0006"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting jinja2",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "jinja2"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "2.0.0"
+                },
+                {
+                  "fixed": "3.1.4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

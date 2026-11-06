@@ -1,0 +1,40 @@
+{
+  "packages": [
+    {
+      "asset_id": "edge-api",
+      "ecosystem": "PyPI",
+      "name": "requests",
+      "version": "2.27.0"
+    },
+    {
+      "asset_id": "edge-api",
+      "ecosystem": "PyPI",
+      "name": "urllib3",
+      "version": "1.26.5"
+    },
+    {
+      "asset_id": "edge-worker",
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "4.17.15"
+    },
+    {
+      "asset_id": "edge-worker",
+      "ecosystem": "npm",
+      "name": "axios",
+      "version": "0.21.0"
+    },
+    {
+      "asset_id": "edge-batch",
+      "ecosystem": "PyPI",
+      "name": "pyyaml",
+      "version": "5.3.1"
+    },
+    {
+      "asset_id": "edge-batch",
+      "ecosystem": "PyPI",
+      "name": "jinja2",
+      "version": "3.0.0"
+    }
+  ]
+}

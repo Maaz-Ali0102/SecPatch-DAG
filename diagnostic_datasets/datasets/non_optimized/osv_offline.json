@@ -1,0 +1,412 @@
+{
+  "vulns": [
+    {
+      "id": "OSV-TEST-NONOPT-001",
+      "aliases": [
+        "GHSA-test-nonopt-001"
+      ],
+      "summary": "Synthetic competing-remediation scenario for django",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.1"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "django"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "4.1.7"
+                },
+                {
+                  "fixed": "4.2.10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-NONOPT-002",
+      "aliases": [
+        "GHSA-test-nonopt-002"
+      ],
+      "summary": "Synthetic competing-remediation scenario for flask",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.2"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "flask"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "2.2.2"
+                },
+                {
+                  "fixed": "2.3.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-NONOPT-003",
+      "aliases": [
+        "GHSA-test-nonopt-003"
+      ],
+      "summary": "Synthetic competing-remediation scenario for requests",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.3"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "requests"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "2.27.0"
+                },
+                {
+                  "fixed": "2.28.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-NONOPT-004",
+      "aliases": [
+        "GHSA-test-nonopt-004"
+      ],
+      "summary": "Synthetic competing-remediation scenario for urllib3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.4"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "urllib3"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "1.26.5"
+                },
+                {
+                  "fixed": "1.26.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-NONOPT-005",
+      "aliases": [
+        "GHSA-test-nonopt-005"
+      ],
+      "summary": "Synthetic competing-remediation scenario for cryptography",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.5"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "cryptography"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "38.0.0"
+                },
+                {
+                  "fixed": "39.0.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-NONOPT-006",
+      "aliases": [
+        "GHSA-test-nonopt-006"
+      ],
+      "summary": "Synthetic competing-remediation scenario for pyyaml",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.6"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "pyyaml"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "5.3.1"
+                },
+                {
+                  "fixed": "5.4.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-NONOPT-007",
+      "aliases": [
+        "GHSA-test-nonopt-007"
+      ],
+      "summary": "Synthetic competing-remediation scenario for lodash",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.7"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "lodash"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "4.17.15"
+                },
+                {
+                  "fixed": "4.17.21"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-NONOPT-008",
+      "aliases": [
+        "GHSA-test-nonopt-008"
+      ],
+      "summary": "Synthetic competing-remediation scenario for express",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "express"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "4.17.1"
+                },
+                {
+                  "fixed": "4.18.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-NONOPT-009",
+      "aliases": [
+        "GHSA-test-nonopt-009"
+      ],
+      "summary": "Synthetic competing-remediation scenario for axios",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.9"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "axios"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.21.0"
+                },
+                {
+                  "fixed": "0.21.4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-NONOPT-010",
+      "aliases": [
+        "GHSA-test-nonopt-010"
+      ],
+      "summary": "Synthetic competing-remediation scenario for minimist",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "8.0"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "minimist"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "1.2.5"
+                },
+                {
+                  "fixed": "1.2.8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-NONOPT-011",
+      "aliases": [
+        "GHSA-test-nonopt-011"
+      ],
+      "summary": "Synthetic competing-remediation scenario for jsonwebtoken",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "8.1"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "jsonwebtoken"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "8.5.0"
+                },
+                {
+                  "fixed": "9.0.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-NONOPT-012",
+      "aliases": [
+        "GHSA-test-nonopt-012"
+      ],
+      "summary": "Synthetic competing-remediation scenario for qs",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "8.2"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "qs"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "6.5.2"
+                },
+                {
+                  "fixed": "6.11.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

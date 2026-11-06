@@ -1,0 +1,21 @@
+{
+  "dataset_id": "adversarial_graph",
+  "synthetic_only": true,
+  "generation_seed": 20261106,
+  "inventory_package_count": 12,
+  "osv_vulnerability_count": 12,
+  "estimate_count": 12,
+  "scenario": "Package inventory paired with a separately specified graph test plan",
+  "expected_notes": [
+    "The provided inventory/OSV/estimate contracts contain no dependency-edge field.",
+    "Use these packages to create assets and remediation candidates, then construct graph edges through the actual dependency-management mechanism.",
+    "Graph test plan: chain; fan-out; disconnected components; two disjoint cycles; one large SCC; self-loop if supported; mixed cyclic and acyclic components."
+  ],
+  "important_contract_notes": [
+    "Inventory asset_id must equal the asset external_identifier used when registering assets.",
+    "Estimate keys must be <asset external_identifier>:<OSV vulnerability id>.",
+    "Only affected installations with a fixed version and matching estimate should become approved patch actions.",
+    "Package dependency edges are not represented in inventory_offline.json; do not invent a field for them."
+  ],
+  "asset_count": 12
+}

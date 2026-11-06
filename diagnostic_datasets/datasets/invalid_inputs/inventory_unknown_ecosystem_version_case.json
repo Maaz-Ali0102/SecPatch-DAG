@@ -1,0 +1,10 @@
+{
+  "packages": [
+    {
+      "asset_id": "bad-eco",
+      "ecosystem": "UnknownEco",
+      "name": "demo",
+      "version": "1.0"
+    }
+  ]
+}

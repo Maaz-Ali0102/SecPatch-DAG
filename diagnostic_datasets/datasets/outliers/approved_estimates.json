@@ -1,0 +1,44 @@
+{
+  "edge-api:OSV-TEST-OUT-0001": {
+    "id": "diag-outliers-0001",
+    "duration_minutes": 22,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "low"
+  },
+  "edge-api:OSV-TEST-OUT-0002": {
+    "id": "diag-outliers-0002",
+    "duration_minutes": 29,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "medium"
+  },
+  "edge-worker:OSV-TEST-OUT-0003": {
+    "id": "diag-outliers-0003",
+    "duration_minutes": 36,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "high"
+  },
+  "edge-worker:OSV-TEST-OUT-0004": {
+    "id": "diag-outliers-0004",
+    "duration_minutes": 43,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "critical"
+  },
+  "edge-batch:OSV-TEST-OUT-0005": {
+    "id": "diag-outliers-0005",
+    "duration_minutes": 50,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "low"
+  },
+  "edge-batch:OSV-TEST-OUT-0006": {
+    "id": "diag-outliers-0006",
+    "duration_minutes": 57,
+    "benefit": 87,
+    "priority": 87,
+    "risk": "medium"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "asset-api:OSV-TEST-BAD-0001": {
+    "id": "bad-float-benefit",
+    "duration_minutes": 15,
+    "benefit": 10.5,
+    "priority": 10,
+    "risk": "high"
+  }
+}

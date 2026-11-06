@@ -1,0 +1,86 @@
+{
+  "graph-node-01:OSV-TEST-GRAPH-001": {
+    "id": "diag-adversarial_graph-0001",
+    "duration_minutes": 22,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "low"
+  },
+  "graph-node-02:OSV-TEST-GRAPH-002": {
+    "id": "diag-adversarial_graph-0002",
+    "duration_minutes": 29,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "medium"
+  },
+  "graph-node-03:OSV-TEST-GRAPH-003": {
+    "id": "diag-adversarial_graph-0003",
+    "duration_minutes": 36,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "high"
+  },
+  "graph-node-04:OSV-TEST-GRAPH-004": {
+    "id": "diag-adversarial_graph-0004",
+    "duration_minutes": 43,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "critical"
+  },
+  "graph-node-05:OSV-TEST-GRAPH-005": {
+    "id": "diag-adversarial_graph-0005",
+    "duration_minutes": 50,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "low"
+  },
+  "graph-node-06:OSV-TEST-GRAPH-006": {
+    "id": "diag-adversarial_graph-0006",
+    "duration_minutes": 57,
+    "benefit": 87,
+    "priority": 87,
+    "risk": "medium"
+  },
+  "graph-node-07:OSV-TEST-GRAPH-007": {
+    "id": "diag-adversarial_graph-0007",
+    "duration_minutes": 64,
+    "benefit": 100,
+    "priority": 100,
+    "risk": "high"
+  },
+  "graph-node-08:OSV-TEST-GRAPH-008": {
+    "id": "diag-adversarial_graph-0008",
+    "duration_minutes": 16,
+    "benefit": 67,
+    "priority": 67,
+    "risk": "critical"
+  },
+  "graph-node-09:OSV-TEST-GRAPH-009": {
+    "id": "diag-adversarial_graph-0009",
+    "duration_minutes": 23,
+    "benefit": 80,
+    "priority": 80,
+    "risk": "low"
+  },
+  "graph-node-10:OSV-TEST-GRAPH-010": {
+    "id": "diag-adversarial_graph-0010",
+    "duration_minutes": 30,
+    "benefit": 93,
+    "priority": 93,
+    "risk": "medium"
+  },
+  "graph-node-11:OSV-TEST-GRAPH-011": {
+    "id": "diag-adversarial_graph-0011",
+    "duration_minutes": 37,
+    "benefit": 60,
+    "priority": 60,
+    "risk": "high"
+  },
+  "graph-node-12:OSV-TEST-GRAPH-012": {
+    "id": "diag-adversarial_graph-0012",
+    "duration_minutes": 44,
+    "benefit": 73,
+    "priority": 73,
+    "risk": "critical"
+  }
+}

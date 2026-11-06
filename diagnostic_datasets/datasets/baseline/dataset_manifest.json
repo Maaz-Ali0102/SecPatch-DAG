@@ -1,0 +1,22 @@
+{
+  "dataset_id": "baseline",
+  "synthetic_only": true,
+  "generation_seed": 20261106,
+  "inventory_package_count": 10,
+  "osv_vulnerability_count": 6,
+  "estimate_count": 5,
+  "scenario": "Small production-style mixed inventory",
+  "expected_notes": [
+    "Affected installations should produce candidates when a fixed version and estimate exist.",
+    "requests 2.31.0 and express 4.18.2 are intended unaffected controls.",
+    "asset-legacy requests has no version and should produce unknown applicability, not a guessed result.",
+    "not-installed-package should not match any inventory row."
+  ],
+  "important_contract_notes": [
+    "Inventory asset_id must equal the asset external_identifier used when registering assets.",
+    "Estimate keys must be <asset external_identifier>:<OSV vulnerability id>.",
+    "Only affected installations with a fixed version and matching estimate should become approved patch actions.",
+    "Package dependency edges are not represented in inventory_offline.json; do not invent a field for them."
+  ],
+  "asset_count": 5
+}

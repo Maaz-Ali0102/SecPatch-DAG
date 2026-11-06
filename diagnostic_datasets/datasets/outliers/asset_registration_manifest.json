@@ -1,0 +1,32 @@
+{
+  "assets": [
+    {
+      "external_identifier": "edge-api",
+      "name": "Edge Api",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "outliers",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "edge-batch",
+      "name": "Edge Batch",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "outliers",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "edge-worker",
+      "name": "Edge Worker",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "outliers",
+        "synthetic": true
+      }
+    }
+  ],
+  "note": "Select the target project/environment in the UI; environment_id is intentionally not fabricated."
+}

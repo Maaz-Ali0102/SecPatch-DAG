@@ -1,0 +1,9 @@
+{
+  "asset-api:OSV-DEMO-2026-0001": {
+    "id": "patch-demo-lib-1-10",
+    "duration_minutes": 15,
+    "benefit": 90,
+    "priority": 90,
+    "risk": "high"
+  }
+}

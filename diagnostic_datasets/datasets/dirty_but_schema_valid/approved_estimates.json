@@ -1,0 +1,30 @@
+{
+  "dirty-api:OSV-TEST-DIRTY-0001": {
+    "id": "diag-dirty_but_schema_valid-0001",
+    "duration_minutes": 22,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "low"
+  },
+  "dirty-api:OSV-TEST-DIRTY-0002": {
+    "id": "diag-dirty_but_schema_valid-0002",
+    "duration_minutes": 29,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "medium"
+  },
+  "dirty-worker:OSV-TEST-DIRTY-0003": {
+    "id": "diag-dirty_but_schema_valid-0003",
+    "duration_minutes": 36,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "high"
+  },
+  "dirty-worker:OSV-TEST-DIRTY-0004": {
+    "id": "diag-dirty_but_schema_valid-0004",
+    "duration_minutes": 43,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "critical"
+  }
+}

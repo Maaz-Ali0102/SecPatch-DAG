@@ -1,0 +1,9 @@
+{
+  "packages": [
+    {
+      "ecosystem": "PyPI",
+      "name": "requests",
+      "version": "2.27.0"
+    }
+  ]
+}

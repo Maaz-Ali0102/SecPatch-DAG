@@ -1,0 +1,50 @@
+{
+  "assets": [
+    {
+      "external_identifier": "asset-admin",
+      "name": "Asset Admin",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "baseline",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "asset-api-prod",
+      "name": "Asset Api Prod",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "baseline",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "asset-batch",
+      "name": "Asset Batch",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "baseline",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "asset-legacy",
+      "name": "Asset Legacy",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "baseline",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "asset-worker-prod",
+      "name": "Asset Worker Prod",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "baseline",
+        "synthetic": true
+      }
+    }
+  ],
+  "note": "Select the target project/environment in the UI; environment_id is intentionally not fabricated."
+}

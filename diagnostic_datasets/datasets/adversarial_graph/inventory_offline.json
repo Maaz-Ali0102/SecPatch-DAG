@@ -1,0 +1,76 @@
+{
+  "packages": [
+    {
+      "asset_id": "graph-node-01",
+      "ecosystem": "PyPI",
+      "name": "cryptography",
+      "version": "38.0.0"
+    },
+    {
+      "asset_id": "graph-node-02",
+      "ecosystem": "PyPI",
+      "name": "urllib3",
+      "version": "1.26.5"
+    },
+    {
+      "asset_id": "graph-node-03",
+      "ecosystem": "PyPI",
+      "name": "requests",
+      "version": "2.27.0"
+    },
+    {
+      "asset_id": "graph-node-04",
+      "ecosystem": "PyPI",
+      "name": "django",
+      "version": "4.1.7"
+    },
+    {
+      "asset_id": "graph-node-05",
+      "ecosystem": "PyPI",
+      "name": "jinja2",
+      "version": "3.0.0"
+    },
+    {
+      "asset_id": "graph-node-06",
+      "ecosystem": "PyPI",
+      "name": "werkzeug",
+      "version": "2.2.2"
+    },
+    {
+      "asset_id": "graph-node-07",
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "4.17.15"
+    },
+    {
+      "asset_id": "graph-node-08",
+      "ecosystem": "npm",
+      "name": "express",
+      "version": "4.17.1"
+    },
+    {
+      "asset_id": "graph-node-09",
+      "ecosystem": "npm",
+      "name": "qs",
+      "version": "6.5.2"
+    },
+    {
+      "asset_id": "graph-node-10",
+      "ecosystem": "npm",
+      "name": "ws",
+      "version": "7.4.0"
+    },
+    {
+      "asset_id": "graph-node-11",
+      "ecosystem": "PyPI",
+      "name": "pyyaml",
+      "version": "5.3.1"
+    },
+    {
+      "asset_id": "graph-node-12",
+      "ecosystem": "PyPI",
+      "name": "pillow",
+      "version": "9.0.0"
+    }
+  ]
+}

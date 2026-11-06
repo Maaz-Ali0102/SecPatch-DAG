@@ -1,0 +1,113 @@
+{
+  "assets": [
+    {
+      "external_identifier": "graph-node-01",
+      "name": "Graph Node 01",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "graph-node-02",
+      "name": "Graph Node 02",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "graph-node-03",
+      "name": "Graph Node 03",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "graph-node-04",
+      "name": "Graph Node 04",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "graph-node-05",
+      "name": "Graph Node 05",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "graph-node-06",
+      "name": "Graph Node 06",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "graph-node-07",
+      "name": "Graph Node 07",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "graph-node-08",
+      "name": "Graph Node 08",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "graph-node-09",
+      "name": "Graph Node 09",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "graph-node-10",
+      "name": "Graph Node 10",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "graph-node-11",
+      "name": "Graph Node 11",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "graph-node-12",
+      "name": "Graph Node 12",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "adversarial_graph",
+        "synthetic": true
+      }
+    }
+  ],
+  "note": "Select the target project/environment in the UI; environment_id is intentionally not fabricated."
+}

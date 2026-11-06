@@ -1,0 +1,684 @@
+{
+  "vulns": [
+    {
+      "id": "OSV-TEST-LARGE-PYPI-001",
+      "aliases": [
+        "GHSA-test-large-pypi-001"
+      ],
+      "summary": "Synthetic enterprise inventory range for django",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.1"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "django"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "4.1.7"
+                },
+                {
+                  "fixed": "4.2.10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-PYPI-002",
+      "aliases": [
+        "GHSA-test-large-pypi-002"
+      ],
+      "summary": "Synthetic enterprise inventory range for flask",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.2"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "flask"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "2.2.2"
+                },
+                {
+                  "fixed": "2.3.3"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-PYPI-003",
+      "aliases": [
+        "GHSA-test-large-pypi-003"
+      ],
+      "summary": "Synthetic enterprise inventory range for requests",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.3"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "requests"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "2.27.0"
+                },
+                {
+                  "fixed": "2.28.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-PYPI-004",
+      "aliases": [
+        "GHSA-test-large-pypi-004"
+      ],
+      "summary": "Synthetic enterprise inventory range for urllib3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.4"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "urllib3"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "1.26.5"
+                },
+                {
+                  "fixed": "1.26.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-PYPI-005",
+      "aliases": [
+        "GHSA-test-large-pypi-005"
+      ],
+      "summary": "Synthetic enterprise inventory range for cryptography",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.5"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "cryptography"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "38.0.0"
+                },
+                {
+                  "fixed": "39.0.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-PYPI-006",
+      "aliases": [
+        "GHSA-test-large-pypi-006"
+      ],
+      "summary": "Synthetic enterprise inventory range for pyyaml",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.6"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "pyyaml"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "5.3.1"
+                },
+                {
+                  "fixed": "5.4.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-PYPI-007",
+      "aliases": [
+        "GHSA-test-large-pypi-007"
+      ],
+      "summary": "Synthetic enterprise inventory range for jinja2",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.7"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "jinja2"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "3.0.0"
+                },
+                {
+                  "fixed": "3.1.4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-PYPI-008",
+      "aliases": [
+        "GHSA-test-large-pypi-008"
+      ],
+      "summary": "Synthetic enterprise inventory range for werkzeug",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "werkzeug"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "2.2.2"
+                },
+                {
+                  "fixed": "2.3.8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-PYPI-009",
+      "aliases": [
+        "GHSA-test-large-pypi-009"
+      ],
+      "summary": "Synthetic enterprise inventory range for sqlalchemy",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.9"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "sqlalchemy"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "1.4.40"
+                },
+                {
+                  "fixed": "1.4.50"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-PYPI-010",
+      "aliases": [
+        "GHSA-test-large-pypi-010"
+      ],
+      "summary": "Synthetic enterprise inventory range for paramiko",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.0"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "paramiko"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "2.10.0"
+                },
+                {
+                  "fixed": "2.12.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-PYPI-011",
+      "aliases": [
+        "GHSA-test-large-pypi-011"
+      ],
+      "summary": "Synthetic enterprise inventory range for pillow",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.1"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "pillow"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "9.0.0"
+                },
+                {
+                  "fixed": "9.2.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-PYPI-012",
+      "aliases": [
+        "GHSA-test-large-pypi-012"
+      ],
+      "summary": "Synthetic enterprise inventory range for aiohttp",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.2"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "aiohttp"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "3.8.0"
+                },
+                {
+                  "fixed": "3.8.6"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-NPM-001",
+      "aliases": [
+        "GHSA-test-large-npm-001"
+      ],
+      "summary": "Synthetic enterprise inventory range for lodash",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.1"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "lodash"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "4.17.15"
+                },
+                {
+                  "fixed": "4.17.21"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-NPM-002",
+      "aliases": [
+        "GHSA-test-large-npm-002"
+      ],
+      "summary": "Synthetic enterprise inventory range for express",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.2"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "express"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "4.17.1"
+                },
+                {
+                  "fixed": "4.18.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-NPM-003",
+      "aliases": [
+        "GHSA-test-large-npm-003"
+      ],
+      "summary": "Synthetic enterprise inventory range for axios",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.3"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "axios"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.21.0"
+                },
+                {
+                  "fixed": "0.21.4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-NPM-004",
+      "aliases": [
+        "GHSA-test-large-npm-004"
+      ],
+      "summary": "Synthetic enterprise inventory range for minimist",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.4"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "minimist"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "1.2.5"
+                },
+                {
+                  "fixed": "1.2.8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-NPM-005",
+      "aliases": [
+        "GHSA-test-large-npm-005"
+      ],
+      "summary": "Synthetic enterprise inventory range for jsonwebtoken",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.5"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "jsonwebtoken"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "8.5.0"
+                },
+                {
+                  "fixed": "9.0.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-NPM-006",
+      "aliases": [
+        "GHSA-test-large-npm-006"
+      ],
+      "summary": "Synthetic enterprise inventory range for qs",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.6"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "qs"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "6.5.2"
+                },
+                {
+                  "fixed": "6.11.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-NPM-007",
+      "aliases": [
+        "GHSA-test-large-npm-007"
+      ],
+      "summary": "Synthetic enterprise inventory range for ws",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.7"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "ws"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "7.4.0"
+                },
+                {
+                  "fixed": "7.5.9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-LARGE-NPM-008",
+      "aliases": [
+        "GHSA-test-large-npm-008"
+      ],
+      "summary": "Synthetic enterprise inventory range for semver",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "semver"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "7.3.4"
+                },
+                {
+                  "fixed": "7.5.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

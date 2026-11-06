@@ -1,0 +1,16 @@
+{
+  "packages": [
+    {
+      "asset_id": "dup-asset",
+      "ecosystem": "PyPI",
+      "name": "requests",
+      "version": "2.27.0"
+    },
+    {
+      "asset_id": "dup-asset",
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "4.17.15"
+    }
+  ]
+}

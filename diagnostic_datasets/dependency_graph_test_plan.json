@@ -1,0 +1,156 @@
+{
+  "warning": "This is a test specification, NOT an application import payload. Do not upload it until the actual dependency-management contract is confirmed.",
+  "graphs": [
+    {
+      "id": "chain-5",
+      "nodes": [
+        "n1",
+        "n2",
+        "n3",
+        "n4",
+        "n5"
+      ],
+      "edges": [
+        [
+          "n2",
+          "n1"
+        ],
+        [
+          "n3",
+          "n2"
+        ],
+        [
+          "n4",
+          "n3"
+        ],
+        [
+          "n5",
+          "n4"
+        ]
+      ],
+      "expected_scc_count": 5,
+      "expected_cycle_count": 0
+    },
+    {
+      "id": "fanout",
+      "nodes": [
+        "root",
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "edges": [
+        [
+          "a",
+          "root"
+        ],
+        [
+          "b",
+          "root"
+        ],
+        [
+          "c",
+          "root"
+        ],
+        [
+          "d",
+          "root"
+        ]
+      ],
+      "expected_scc_count": 5,
+      "expected_cycle_count": 0
+    },
+    {
+      "id": "disconnected",
+      "nodes": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "edges": [
+        [
+          "b",
+          "a"
+        ],
+        [
+          "e",
+          "d"
+        ]
+      ],
+      "expected_scc_count": 5,
+      "expected_cycle_count": 0
+    },
+    {
+      "id": "two-cycles",
+      "nodes": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "edges": [
+        [
+          "a",
+          "b"
+        ],
+        [
+          "b",
+          "a"
+        ],
+        [
+          "c",
+          "d"
+        ],
+        [
+          "d",
+          "e"
+        ],
+        [
+          "e",
+          "c"
+        ],
+        [
+          "f",
+          "e"
+        ]
+      ],
+      "expected_scc_count": 3,
+      "expected_cycle_count": 2
+    },
+    {
+      "id": "mixed-cycle-and-dag",
+      "nodes": [
+        "crypto",
+        "auth",
+        "api",
+        "worker",
+        "isolated"
+      ],
+      "edges": [
+        [
+          "auth",
+          "crypto"
+        ],
+        [
+          "crypto",
+          "auth"
+        ],
+        [
+          "api",
+          "auth"
+        ],
+        [
+          "worker",
+          "api"
+        ]
+      ],
+      "expected_scc_count": 4,
+      "expected_cycle_count": 1
+    }
+  ]
+}

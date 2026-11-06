@@ -1,0 +1,674 @@
+{
+  "app-01:OSV-TEST-NONOPT-001": {
+    "id": "diag-non_optimized-0001",
+    "duration_minutes": 22,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "low"
+  },
+  "app-01:OSV-TEST-NONOPT-002": {
+    "id": "diag-non_optimized-0002",
+    "duration_minutes": 29,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "medium"
+  },
+  "app-01:OSV-TEST-NONOPT-003": {
+    "id": "diag-non_optimized-0003",
+    "duration_minutes": 36,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "high"
+  },
+  "app-01:OSV-TEST-NONOPT-004": {
+    "id": "diag-non_optimized-0004",
+    "duration_minutes": 43,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "critical"
+  },
+  "app-01:OSV-TEST-NONOPT-005": {
+    "id": "diag-non_optimized-0005",
+    "duration_minutes": 50,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "low"
+  },
+  "app-01:OSV-TEST-NONOPT-006": {
+    "id": "diag-non_optimized-0006",
+    "duration_minutes": 57,
+    "benefit": 87,
+    "priority": 87,
+    "risk": "medium"
+  },
+  "app-01:OSV-TEST-NONOPT-007": {
+    "id": "diag-non_optimized-0007",
+    "duration_minutes": 64,
+    "benefit": 100,
+    "priority": 100,
+    "risk": "high"
+  },
+  "app-01:OSV-TEST-NONOPT-008": {
+    "id": "diag-non_optimized-0008",
+    "duration_minutes": 16,
+    "benefit": 67,
+    "priority": 67,
+    "risk": "critical"
+  },
+  "app-01:OSV-TEST-NONOPT-009": {
+    "id": "diag-non_optimized-0009",
+    "duration_minutes": 23,
+    "benefit": 80,
+    "priority": 80,
+    "risk": "low"
+  },
+  "app-01:OSV-TEST-NONOPT-010": {
+    "id": "diag-non_optimized-0010",
+    "duration_minutes": 30,
+    "benefit": 93,
+    "priority": 93,
+    "risk": "medium"
+  },
+  "app-01:OSV-TEST-NONOPT-011": {
+    "id": "diag-non_optimized-0011",
+    "duration_minutes": 37,
+    "benefit": 60,
+    "priority": 60,
+    "risk": "high"
+  },
+  "app-01:OSV-TEST-NONOPT-012": {
+    "id": "diag-non_optimized-0012",
+    "duration_minutes": 44,
+    "benefit": 73,
+    "priority": 73,
+    "risk": "critical"
+  },
+  "app-02:OSV-TEST-NONOPT-001": {
+    "id": "diag-non_optimized-0013",
+    "duration_minutes": 51,
+    "benefit": 86,
+    "priority": 86,
+    "risk": "low"
+  },
+  "app-02:OSV-TEST-NONOPT-002": {
+    "id": "diag-non_optimized-0014",
+    "duration_minutes": 58,
+    "benefit": 99,
+    "priority": 99,
+    "risk": "medium"
+  },
+  "app-02:OSV-TEST-NONOPT-003": {
+    "id": "diag-non_optimized-0015",
+    "duration_minutes": 65,
+    "benefit": 66,
+    "priority": 66,
+    "risk": "high"
+  },
+  "app-02:OSV-TEST-NONOPT-004": {
+    "id": "diag-non_optimized-0016",
+    "duration_minutes": 17,
+    "benefit": 79,
+    "priority": 79,
+    "risk": "critical"
+  },
+  "app-02:OSV-TEST-NONOPT-005": {
+    "id": "diag-non_optimized-0017",
+    "duration_minutes": 24,
+    "benefit": 92,
+    "priority": 92,
+    "risk": "low"
+  },
+  "app-02:OSV-TEST-NONOPT-006": {
+    "id": "diag-non_optimized-0018",
+    "duration_minutes": 31,
+    "benefit": 59,
+    "priority": 59,
+    "risk": "medium"
+  },
+  "app-02:OSV-TEST-NONOPT-007": {
+    "id": "diag-non_optimized-0019",
+    "duration_minutes": 38,
+    "benefit": 72,
+    "priority": 72,
+    "risk": "high"
+  },
+  "app-02:OSV-TEST-NONOPT-008": {
+    "id": "diag-non_optimized-0020",
+    "duration_minutes": 45,
+    "benefit": 85,
+    "priority": 85,
+    "risk": "critical"
+  },
+  "app-02:OSV-TEST-NONOPT-009": {
+    "id": "diag-non_optimized-0021",
+    "duration_minutes": 52,
+    "benefit": 98,
+    "priority": 98,
+    "risk": "low"
+  },
+  "app-02:OSV-TEST-NONOPT-010": {
+    "id": "diag-non_optimized-0022",
+    "duration_minutes": 59,
+    "benefit": 65,
+    "priority": 65,
+    "risk": "medium"
+  },
+  "app-02:OSV-TEST-NONOPT-011": {
+    "id": "diag-non_optimized-0023",
+    "duration_minutes": 66,
+    "benefit": 78,
+    "priority": 78,
+    "risk": "high"
+  },
+  "app-02:OSV-TEST-NONOPT-012": {
+    "id": "diag-non_optimized-0024",
+    "duration_minutes": 18,
+    "benefit": 91,
+    "priority": 91,
+    "risk": "critical"
+  },
+  "app-03:OSV-TEST-NONOPT-001": {
+    "id": "diag-non_optimized-0025",
+    "duration_minutes": 25,
+    "benefit": 58,
+    "priority": 58,
+    "risk": "low"
+  },
+  "app-03:OSV-TEST-NONOPT-002": {
+    "id": "diag-non_optimized-0026",
+    "duration_minutes": 32,
+    "benefit": 71,
+    "priority": 71,
+    "risk": "medium"
+  },
+  "app-03:OSV-TEST-NONOPT-003": {
+    "id": "diag-non_optimized-0027",
+    "duration_minutes": 39,
+    "benefit": 84,
+    "priority": 84,
+    "risk": "high"
+  },
+  "app-03:OSV-TEST-NONOPT-004": {
+    "id": "diag-non_optimized-0028",
+    "duration_minutes": 46,
+    "benefit": 97,
+    "priority": 97,
+    "risk": "critical"
+  },
+  "app-03:OSV-TEST-NONOPT-005": {
+    "id": "diag-non_optimized-0029",
+    "duration_minutes": 53,
+    "benefit": 64,
+    "priority": 64,
+    "risk": "low"
+  },
+  "app-03:OSV-TEST-NONOPT-006": {
+    "id": "diag-non_optimized-0030",
+    "duration_minutes": 60,
+    "benefit": 77,
+    "priority": 77,
+    "risk": "medium"
+  },
+  "app-03:OSV-TEST-NONOPT-007": {
+    "id": "diag-non_optimized-0031",
+    "duration_minutes": 67,
+    "benefit": 90,
+    "priority": 90,
+    "risk": "high"
+  },
+  "app-03:OSV-TEST-NONOPT-008": {
+    "id": "diag-non_optimized-0032",
+    "duration_minutes": 19,
+    "benefit": 57,
+    "priority": 57,
+    "risk": "critical"
+  },
+  "app-03:OSV-TEST-NONOPT-009": {
+    "id": "diag-non_optimized-0033",
+    "duration_minutes": 26,
+    "benefit": 70,
+    "priority": 70,
+    "risk": "low"
+  },
+  "app-03:OSV-TEST-NONOPT-010": {
+    "id": "diag-non_optimized-0034",
+    "duration_minutes": 33,
+    "benefit": 83,
+    "priority": 83,
+    "risk": "medium"
+  },
+  "app-03:OSV-TEST-NONOPT-011": {
+    "id": "diag-non_optimized-0035",
+    "duration_minutes": 40,
+    "benefit": 96,
+    "priority": 96,
+    "risk": "high"
+  },
+  "app-03:OSV-TEST-NONOPT-012": {
+    "id": "diag-non_optimized-0036",
+    "duration_minutes": 47,
+    "benefit": 63,
+    "priority": 63,
+    "risk": "critical"
+  },
+  "app-04:OSV-TEST-NONOPT-001": {
+    "id": "diag-non_optimized-0037",
+    "duration_minutes": 54,
+    "benefit": 76,
+    "priority": 76,
+    "risk": "low"
+  },
+  "app-04:OSV-TEST-NONOPT-002": {
+    "id": "diag-non_optimized-0038",
+    "duration_minutes": 61,
+    "benefit": 89,
+    "priority": 89,
+    "risk": "medium"
+  },
+  "app-04:OSV-TEST-NONOPT-003": {
+    "id": "diag-non_optimized-0039",
+    "duration_minutes": 68,
+    "benefit": 56,
+    "priority": 56,
+    "risk": "high"
+  },
+  "app-04:OSV-TEST-NONOPT-004": {
+    "id": "diag-non_optimized-0040",
+    "duration_minutes": 20,
+    "benefit": 69,
+    "priority": 69,
+    "risk": "critical"
+  },
+  "app-04:OSV-TEST-NONOPT-005": {
+    "id": "diag-non_optimized-0041",
+    "duration_minutes": 27,
+    "benefit": 82,
+    "priority": 82,
+    "risk": "low"
+  },
+  "app-04:OSV-TEST-NONOPT-006": {
+    "id": "diag-non_optimized-0042",
+    "duration_minutes": 34,
+    "benefit": 95,
+    "priority": 95,
+    "risk": "medium"
+  },
+  "app-04:OSV-TEST-NONOPT-007": {
+    "id": "diag-non_optimized-0043",
+    "duration_minutes": 41,
+    "benefit": 62,
+    "priority": 62,
+    "risk": "high"
+  },
+  "app-04:OSV-TEST-NONOPT-008": {
+    "id": "diag-non_optimized-0044",
+    "duration_minutes": 48,
+    "benefit": 75,
+    "priority": 75,
+    "risk": "critical"
+  },
+  "app-04:OSV-TEST-NONOPT-009": {
+    "id": "diag-non_optimized-0045",
+    "duration_minutes": 55,
+    "benefit": 88,
+    "priority": 88,
+    "risk": "low"
+  },
+  "app-04:OSV-TEST-NONOPT-010": {
+    "id": "diag-non_optimized-0046",
+    "duration_minutes": 62,
+    "benefit": 55,
+    "priority": 55,
+    "risk": "medium"
+  },
+  "app-04:OSV-TEST-NONOPT-011": {
+    "id": "diag-non_optimized-0047",
+    "duration_minutes": 69,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "high"
+  },
+  "app-04:OSV-TEST-NONOPT-012": {
+    "id": "diag-non_optimized-0048",
+    "duration_minutes": 21,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "critical"
+  },
+  "app-05:OSV-TEST-NONOPT-001": {
+    "id": "diag-non_optimized-0049",
+    "duration_minutes": 28,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "low"
+  },
+  "app-05:OSV-TEST-NONOPT-002": {
+    "id": "diag-non_optimized-0050",
+    "duration_minutes": 35,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "medium"
+  },
+  "app-05:OSV-TEST-NONOPT-003": {
+    "id": "diag-non_optimized-0051",
+    "duration_minutes": 42,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "high"
+  },
+  "app-05:OSV-TEST-NONOPT-004": {
+    "id": "diag-non_optimized-0052",
+    "duration_minutes": 49,
+    "benefit": 87,
+    "priority": 87,
+    "risk": "critical"
+  },
+  "app-05:OSV-TEST-NONOPT-005": {
+    "id": "diag-non_optimized-0053",
+    "duration_minutes": 56,
+    "benefit": 100,
+    "priority": 100,
+    "risk": "low"
+  },
+  "app-05:OSV-TEST-NONOPT-006": {
+    "id": "diag-non_optimized-0054",
+    "duration_minutes": 63,
+    "benefit": 67,
+    "priority": 67,
+    "risk": "medium"
+  },
+  "app-05:OSV-TEST-NONOPT-007": {
+    "id": "diag-non_optimized-0055",
+    "duration_minutes": 15,
+    "benefit": 80,
+    "priority": 80,
+    "risk": "high"
+  },
+  "app-05:OSV-TEST-NONOPT-008": {
+    "id": "diag-non_optimized-0056",
+    "duration_minutes": 22,
+    "benefit": 93,
+    "priority": 93,
+    "risk": "critical"
+  },
+  "app-05:OSV-TEST-NONOPT-009": {
+    "id": "diag-non_optimized-0057",
+    "duration_minutes": 29,
+    "benefit": 60,
+    "priority": 60,
+    "risk": "low"
+  },
+  "app-05:OSV-TEST-NONOPT-010": {
+    "id": "diag-non_optimized-0058",
+    "duration_minutes": 36,
+    "benefit": 73,
+    "priority": 73,
+    "risk": "medium"
+  },
+  "app-05:OSV-TEST-NONOPT-011": {
+    "id": "diag-non_optimized-0059",
+    "duration_minutes": 43,
+    "benefit": 86,
+    "priority": 86,
+    "risk": "high"
+  },
+  "app-05:OSV-TEST-NONOPT-012": {
+    "id": "diag-non_optimized-0060",
+    "duration_minutes": 50,
+    "benefit": 99,
+    "priority": 99,
+    "risk": "critical"
+  },
+  "app-06:OSV-TEST-NONOPT-001": {
+    "id": "diag-non_optimized-0061",
+    "duration_minutes": 57,
+    "benefit": 66,
+    "priority": 66,
+    "risk": "low"
+  },
+  "app-06:OSV-TEST-NONOPT-002": {
+    "id": "diag-non_optimized-0062",
+    "duration_minutes": 64,
+    "benefit": 79,
+    "priority": 79,
+    "risk": "medium"
+  },
+  "app-06:OSV-TEST-NONOPT-003": {
+    "id": "diag-non_optimized-0063",
+    "duration_minutes": 16,
+    "benefit": 92,
+    "priority": 92,
+    "risk": "high"
+  },
+  "app-06:OSV-TEST-NONOPT-004": {
+    "id": "diag-non_optimized-0064",
+    "duration_minutes": 23,
+    "benefit": 59,
+    "priority": 59,
+    "risk": "critical"
+  },
+  "app-06:OSV-TEST-NONOPT-005": {
+    "id": "diag-non_optimized-0065",
+    "duration_minutes": 30,
+    "benefit": 72,
+    "priority": 72,
+    "risk": "low"
+  },
+  "app-06:OSV-TEST-NONOPT-006": {
+    "id": "diag-non_optimized-0066",
+    "duration_minutes": 37,
+    "benefit": 85,
+    "priority": 85,
+    "risk": "medium"
+  },
+  "app-06:OSV-TEST-NONOPT-007": {
+    "id": "diag-non_optimized-0067",
+    "duration_minutes": 44,
+    "benefit": 98,
+    "priority": 98,
+    "risk": "high"
+  },
+  "app-06:OSV-TEST-NONOPT-008": {
+    "id": "diag-non_optimized-0068",
+    "duration_minutes": 51,
+    "benefit": 65,
+    "priority": 65,
+    "risk": "critical"
+  },
+  "app-06:OSV-TEST-NONOPT-009": {
+    "id": "diag-non_optimized-0069",
+    "duration_minutes": 58,
+    "benefit": 78,
+    "priority": 78,
+    "risk": "low"
+  },
+  "app-06:OSV-TEST-NONOPT-010": {
+    "id": "diag-non_optimized-0070",
+    "duration_minutes": 65,
+    "benefit": 91,
+    "priority": 91,
+    "risk": "medium"
+  },
+  "app-06:OSV-TEST-NONOPT-011": {
+    "id": "diag-non_optimized-0071",
+    "duration_minutes": 17,
+    "benefit": 58,
+    "priority": 58,
+    "risk": "high"
+  },
+  "app-06:OSV-TEST-NONOPT-012": {
+    "id": "diag-non_optimized-0072",
+    "duration_minutes": 24,
+    "benefit": 71,
+    "priority": 71,
+    "risk": "critical"
+  },
+  "app-07:OSV-TEST-NONOPT-001": {
+    "id": "diag-non_optimized-0073",
+    "duration_minutes": 31,
+    "benefit": 84,
+    "priority": 84,
+    "risk": "low"
+  },
+  "app-07:OSV-TEST-NONOPT-002": {
+    "id": "diag-non_optimized-0074",
+    "duration_minutes": 38,
+    "benefit": 97,
+    "priority": 97,
+    "risk": "medium"
+  },
+  "app-07:OSV-TEST-NONOPT-003": {
+    "id": "diag-non_optimized-0075",
+    "duration_minutes": 45,
+    "benefit": 64,
+    "priority": 64,
+    "risk": "high"
+  },
+  "app-07:OSV-TEST-NONOPT-004": {
+    "id": "diag-non_optimized-0076",
+    "duration_minutes": 52,
+    "benefit": 77,
+    "priority": 77,
+    "risk": "critical"
+  },
+  "app-07:OSV-TEST-NONOPT-005": {
+    "id": "diag-non_optimized-0077",
+    "duration_minutes": 59,
+    "benefit": 90,
+    "priority": 90,
+    "risk": "low"
+  },
+  "app-07:OSV-TEST-NONOPT-006": {
+    "id": "diag-non_optimized-0078",
+    "duration_minutes": 66,
+    "benefit": 57,
+    "priority": 57,
+    "risk": "medium"
+  },
+  "app-07:OSV-TEST-NONOPT-007": {
+    "id": "diag-non_optimized-0079",
+    "duration_minutes": 18,
+    "benefit": 70,
+    "priority": 70,
+    "risk": "high"
+  },
+  "app-07:OSV-TEST-NONOPT-008": {
+    "id": "diag-non_optimized-0080",
+    "duration_minutes": 25,
+    "benefit": 83,
+    "priority": 83,
+    "risk": "critical"
+  },
+  "app-07:OSV-TEST-NONOPT-009": {
+    "id": "diag-non_optimized-0081",
+    "duration_minutes": 32,
+    "benefit": 96,
+    "priority": 96,
+    "risk": "low"
+  },
+  "app-07:OSV-TEST-NONOPT-010": {
+    "id": "diag-non_optimized-0082",
+    "duration_minutes": 39,
+    "benefit": 63,
+    "priority": 63,
+    "risk": "medium"
+  },
+  "app-07:OSV-TEST-NONOPT-011": {
+    "id": "diag-non_optimized-0083",
+    "duration_minutes": 46,
+    "benefit": 76,
+    "priority": 76,
+    "risk": "high"
+  },
+  "app-07:OSV-TEST-NONOPT-012": {
+    "id": "diag-non_optimized-0084",
+    "duration_minutes": 53,
+    "benefit": 89,
+    "priority": 89,
+    "risk": "critical"
+  },
+  "app-08:OSV-TEST-NONOPT-001": {
+    "id": "diag-non_optimized-0085",
+    "duration_minutes": 60,
+    "benefit": 56,
+    "priority": 56,
+    "risk": "low"
+  },
+  "app-08:OSV-TEST-NONOPT-002": {
+    "id": "diag-non_optimized-0086",
+    "duration_minutes": 67,
+    "benefit": 69,
+    "priority": 69,
+    "risk": "medium"
+  },
+  "app-08:OSV-TEST-NONOPT-003": {
+    "id": "diag-non_optimized-0087",
+    "duration_minutes": 19,
+    "benefit": 82,
+    "priority": 82,
+    "risk": "high"
+  },
+  "app-08:OSV-TEST-NONOPT-004": {
+    "id": "diag-non_optimized-0088",
+    "duration_minutes": 26,
+    "benefit": 95,
+    "priority": 95,
+    "risk": "critical"
+  },
+  "app-08:OSV-TEST-NONOPT-005": {
+    "id": "diag-non_optimized-0089",
+    "duration_minutes": 33,
+    "benefit": 62,
+    "priority": 62,
+    "risk": "low"
+  },
+  "app-08:OSV-TEST-NONOPT-006": {
+    "id": "diag-non_optimized-0090",
+    "duration_minutes": 40,
+    "benefit": 75,
+    "priority": 75,
+    "risk": "medium"
+  },
+  "app-08:OSV-TEST-NONOPT-007": {
+    "id": "diag-non_optimized-0091",
+    "duration_minutes": 47,
+    "benefit": 88,
+    "priority": 88,
+    "risk": "high"
+  },
+  "app-08:OSV-TEST-NONOPT-008": {
+    "id": "diag-non_optimized-0092",
+    "duration_minutes": 54,
+    "benefit": 55,
+    "priority": 55,
+    "risk": "critical"
+  },
+  "app-08:OSV-TEST-NONOPT-009": {
+    "id": "diag-non_optimized-0093",
+    "duration_minutes": 61,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "low"
+  },
+  "app-08:OSV-TEST-NONOPT-010": {
+    "id": "diag-non_optimized-0094",
+    "duration_minutes": 68,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "medium"
+  },
+  "app-08:OSV-TEST-NONOPT-011": {
+    "id": "diag-non_optimized-0095",
+    "duration_minutes": 20,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "high"
+  },
+  "app-08:OSV-TEST-NONOPT-012": {
+    "id": "diag-non_optimized-0096",
+    "duration_minutes": 27,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "critical"
+  }
+}

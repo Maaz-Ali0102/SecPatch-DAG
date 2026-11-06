@@ -1,0 +1,9 @@
+{
+  "asset-api:OSV-TEST-BAD-0001": {
+    "id": "bad-negative-benefit",
+    "duration_minutes": 15,
+    "benefit": -1,
+    "priority": 0,
+    "risk": "high"
+  }
+}

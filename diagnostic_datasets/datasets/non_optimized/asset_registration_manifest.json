@@ -1,0 +1,77 @@
+{
+  "assets": [
+    {
+      "external_identifier": "app-01",
+      "name": "App 01",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "non_optimized",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "app-02",
+      "name": "App 02",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "non_optimized",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "app-03",
+      "name": "App 03",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "non_optimized",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "app-04",
+      "name": "App 04",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "non_optimized",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "app-05",
+      "name": "App 05",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "non_optimized",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "app-06",
+      "name": "App 06",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "non_optimized",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "app-07",
+      "name": "App 07",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "non_optimized",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "app-08",
+      "name": "App 08",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "non_optimized",
+        "synthetic": true
+      }
+    }
+  ],
+  "note": "Select the target project/environment in the UI; environment_id is intentionally not fabricated."
+}

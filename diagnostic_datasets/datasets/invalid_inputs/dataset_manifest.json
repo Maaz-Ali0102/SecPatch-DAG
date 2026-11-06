@@ -1,0 +1,47 @@
+{
+  "dataset_id": "invalid_inputs",
+  "synthetic_only": true,
+  "usage": "Run each file independently against its corresponding upload/validation path. Do not combine all invalid cases into one upload.",
+  "cases": [
+    {
+      "file": "inventory_missing_asset_id.json",
+      "intended_test": "inventory missing asset id"
+    },
+    {
+      "file": "inventory_unknown_ecosystem_version_case.json",
+      "intended_test": "inventory unknown ecosystem version case"
+    },
+    {
+      "file": "inventory_duplicate_asset_id.json",
+      "intended_test": "inventory duplicate asset id"
+    },
+    {
+      "file": "inventory_malformed_version.json",
+      "intended_test": "inventory malformed version"
+    },
+    {
+      "file": "osv_missing_vulns.json",
+      "intended_test": "osv missing vulns"
+    },
+    {
+      "file": "osv_invalid_events.json",
+      "intended_test": "osv invalid events"
+    },
+    {
+      "file": "estimate_zero_duration.json",
+      "intended_test": "estimate zero duration"
+    },
+    {
+      "file": "estimate_negative_duration.json",
+      "intended_test": "estimate negative duration"
+    },
+    {
+      "file": "estimate_float_benefit.json",
+      "intended_test": "estimate float benefit"
+    },
+    {
+      "file": "estimate_negative_benefit.json",
+      "intended_test": "estimate negative benefit"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "packages": [
+    {"asset_id": "asset-api", "ecosystem": "PyPI", "name": "demo-lib", "version": "1.9"},
+    {"asset_id": "asset-worker", "ecosystem": "PyPI", "name": "demo-lib", "version": "1.10.0"},
+    {"asset_id": "asset-unknown", "ecosystem": "PyPI", "name": "demo-lib"},
+    {"asset_id": "asset-other", "ecosystem": "PyPI", "name": "unknown-lib", "version": "1.0.0"}
+  ]
+}

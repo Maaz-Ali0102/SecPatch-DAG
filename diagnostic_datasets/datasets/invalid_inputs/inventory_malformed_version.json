@@ -1,0 +1,10 @@
+{
+  "packages": [
+    {
+      "asset_id": "bad-version",
+      "ecosystem": "npm",
+      "name": "lodash",
+      "version": "not-semver"
+    }
+  ]
+}

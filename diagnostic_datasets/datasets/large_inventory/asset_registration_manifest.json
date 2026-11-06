@@ -1,0 +1,545 @@
+{
+  "assets": [
+    {
+      "external_identifier": "svc-001",
+      "name": "Svc 001",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-002",
+      "name": "Svc 002",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-003",
+      "name": "Svc 003",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-004",
+      "name": "Svc 004",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-005",
+      "name": "Svc 005",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-006",
+      "name": "Svc 006",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-007",
+      "name": "Svc 007",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-008",
+      "name": "Svc 008",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-009",
+      "name": "Svc 009",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-010",
+      "name": "Svc 010",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-011",
+      "name": "Svc 011",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-012",
+      "name": "Svc 012",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-013",
+      "name": "Svc 013",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-014",
+      "name": "Svc 014",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-015",
+      "name": "Svc 015",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-016",
+      "name": "Svc 016",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-017",
+      "name": "Svc 017",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-018",
+      "name": "Svc 018",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-019",
+      "name": "Svc 019",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-020",
+      "name": "Svc 020",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-021",
+      "name": "Svc 021",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-022",
+      "name": "Svc 022",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-023",
+      "name": "Svc 023",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-024",
+      "name": "Svc 024",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-025",
+      "name": "Svc 025",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-026",
+      "name": "Svc 026",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-027",
+      "name": "Svc 027",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-028",
+      "name": "Svc 028",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-029",
+      "name": "Svc 029",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-030",
+      "name": "Svc 030",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-031",
+      "name": "Svc 031",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-032",
+      "name": "Svc 032",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-033",
+      "name": "Svc 033",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-034",
+      "name": "Svc 034",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-035",
+      "name": "Svc 035",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-036",
+      "name": "Svc 036",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-037",
+      "name": "Svc 037",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-038",
+      "name": "Svc 038",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-039",
+      "name": "Svc 039",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-040",
+      "name": "Svc 040",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-041",
+      "name": "Svc 041",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-042",
+      "name": "Svc 042",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-043",
+      "name": "Svc 043",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-044",
+      "name": "Svc 044",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-045",
+      "name": "Svc 045",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-046",
+      "name": "Svc 046",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-047",
+      "name": "Svc 047",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-048",
+      "name": "Svc 048",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-049",
+      "name": "Svc 049",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-050",
+      "name": "Svc 050",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-051",
+      "name": "Svc 051",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-052",
+      "name": "Svc 052",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-053",
+      "name": "Svc 053",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-054",
+      "name": "Svc 054",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-055",
+      "name": "Svc 055",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-056",
+      "name": "Svc 056",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-057",
+      "name": "Svc 057",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-058",
+      "name": "Svc 058",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-059",
+      "name": "Svc 059",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    },
+    {
+      "external_identifier": "svc-060",
+      "name": "Svc 060",
+      "operating_system": "linux",
+      "metadata": {
+        "diagnostic_dataset": "large_inventory",
+        "synthetic": true
+      }
+    }
+  ],
+  "note": "Select the target project/environment in the UI; environment_id is intentionally not fabricated."
+}

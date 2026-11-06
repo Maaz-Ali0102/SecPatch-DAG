@@ -1,0 +1,208 @@
+{
+  "vulns": [
+    {
+      "id": "OSV-TEST-BASE-0001",
+      "aliases": [
+        "GHSA-test-base-0001"
+      ],
+      "summary": "Synthetic requests range test",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "8.1"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "requests"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "2.0.0"
+                },
+                {
+                  "fixed": "2.28.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-BASE-0002",
+      "aliases": [
+        "GHSA-test-base-0002"
+      ],
+      "summary": "Synthetic urllib3 range test",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.5"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "urllib3"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "1.0.0"
+                },
+                {
+                  "fixed": "1.26.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-BASE-0003",
+      "aliases": [
+        "GHSA-test-base-0003"
+      ],
+      "summary": "Synthetic cryptography range test",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "9.1"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "cryptography"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "3.0.0"
+                },
+                {
+                  "fixed": "39.0.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-BASE-0004",
+      "aliases": [
+        "GHSA-test-base-0004"
+      ],
+      "summary": "Synthetic lodash range test",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.2"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "lodash"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "4.0.0"
+                },
+                {
+                  "fixed": "4.17.21"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-BASE-0005",
+      "aliases": [
+        "GHSA-test-base-0005"
+      ],
+      "summary": "Synthetic PyYAML range test",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "8.0"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "pyyaml"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "5.0.0"
+                },
+                {
+                  "fixed": "5.4.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-BASE-0006",
+      "aliases": [
+        "GHSA-test-base-0006"
+      ],
+      "summary": "Unmatched package control",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "6.0"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "not-installed-package"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "1.0.0"
+                },
+                {
+                  "fixed": "1.2.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

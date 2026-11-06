@@ -1,0 +1,412 @@
+{
+  "vulns": [
+    {
+      "id": "OSV-TEST-GRAPH-001",
+      "aliases": [
+        "GHSA-test-graph-001"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting cryptography",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "cryptography"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "39.0.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-GRAPH-002",
+      "aliases": [
+        "GHSA-test-graph-002"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting urllib3",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "urllib3"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "1.26.7"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-GRAPH-003",
+      "aliases": [
+        "GHSA-test-graph-003"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting requests",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "requests"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "2.28.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-GRAPH-004",
+      "aliases": [
+        "GHSA-test-graph-004"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting django",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "django"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "4.2.10"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-GRAPH-005",
+      "aliases": [
+        "GHSA-test-graph-005"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting jinja2",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "jinja2"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "3.1.4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-GRAPH-006",
+      "aliases": [
+        "GHSA-test-graph-006"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting werkzeug",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "werkzeug"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "2.3.8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-GRAPH-007",
+      "aliases": [
+        "GHSA-test-graph-007"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting lodash",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "lodash"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "4.17.21"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-GRAPH-008",
+      "aliases": [
+        "GHSA-test-graph-008"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting express",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "express"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "4.18.2"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-GRAPH-009",
+      "aliases": [
+        "GHSA-test-graph-009"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting qs",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "qs"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "6.11.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-GRAPH-010",
+      "aliases": [
+        "GHSA-test-graph-010"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting ws",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "npm",
+            "name": "ws"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "7.5.9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-GRAPH-011",
+      "aliases": [
+        "GHSA-test-graph-011"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting pyyaml",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "pyyaml"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "5.4.1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OSV-TEST-GRAPH-012",
+      "aliases": [
+        "GHSA-test-graph-012"
+      ],
+      "summary": "Synthetic diagnostic vulnerability affecting pillow",
+      "severity": [
+        {
+          "type": "CVSS_V3",
+          "score": "7.8"
+        }
+      ],
+      "affected": [
+        {
+          "package": {
+            "ecosystem": "PyPI",
+            "name": "pillow"
+          },
+          "ranges": [
+            {
+              "type": "ECOSYSTEM",
+              "events": [
+                {
+                  "introduced": "0.1.0"
+                },
+                {
+                  "fixed": "9.2.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

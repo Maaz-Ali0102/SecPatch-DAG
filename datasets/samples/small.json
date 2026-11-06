@@ -1,0 +1,24 @@
+{
+  "packages": [
+    {"id": "web-gateway"}, {"id": "auth-service"}, {"id": "payments"},
+    {"id": "shared-crypto"}, {"id": "metrics-agent"}, {"id": "legacy-parser"},
+    {"id": "isolated-tool"}
+  ],
+  "dependencies": [
+    {"from": "web-gateway", "to": "auth-service"},
+    {"from": "auth-service", "to": "shared-crypto"},
+    {"from": "payments", "to": "shared-crypto"},
+    {"from": "legacy-parser", "to": "legacy-parser"},
+    {"from": "metrics-agent", "to": "isolated-tool"}
+  ],
+  "actions": [
+    {"id": "patch-crypto", "package_id": "shared-crypto", "duration_minutes": 20, "benefit": 95, "priority": 95, "risk": "critical", "mandatory": true},
+    {"id": "patch-auth", "package_id": "auth-service", "duration_minutes": 25, "benefit": 80, "priority": 85, "prerequisites": ["patch-crypto"], "risk": "high"},
+    {"id": "patch-gateway", "package_id": "web-gateway", "duration_minutes": 15, "benefit": 65, "priority": 70, "prerequisites": ["patch-auth"], "risk": "high"},
+    {"id": "patch-payments", "package_id": "payments", "duration_minutes": 30, "benefit": 90, "priority": 88, "prerequisites": ["patch-crypto"], "risk": "critical"},
+    {"id": "patch-metrics", "package_id": "metrics-agent", "duration_minutes": 10, "benefit": 30, "priority": 35, "risk": "low"},
+    {"id": "patch-parser", "package_id": "legacy-parser", "duration_minutes": 20, "benefit": 75, "priority": 80, "risk": "high"},
+    {"id": "patch-tool", "package_id": "isolated-tool", "duration_minutes": 5, "benefit": 10, "priority": 10, "risk": "low"}
+  ]
+}
+

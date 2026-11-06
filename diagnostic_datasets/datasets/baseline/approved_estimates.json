@@ -1,0 +1,37 @@
+{
+  "asset-api-prod:OSV-TEST-BASE-0001": {
+    "id": "diag-baseline-0001",
+    "duration_minutes": 22,
+    "benefit": 68,
+    "priority": 68,
+    "risk": "low"
+  },
+  "asset-api-prod:OSV-TEST-BASE-0002": {
+    "id": "diag-baseline-0002",
+    "duration_minutes": 29,
+    "benefit": 81,
+    "priority": 81,
+    "risk": "medium"
+  },
+  "asset-worker-prod:OSV-TEST-BASE-0003": {
+    "id": "diag-baseline-0003",
+    "duration_minutes": 36,
+    "benefit": 94,
+    "priority": 94,
+    "risk": "high"
+  },
+  "asset-admin:OSV-TEST-BASE-0004": {
+    "id": "diag-baseline-0004",
+    "duration_minutes": 43,
+    "benefit": 61,
+    "priority": 61,
+    "risk": "critical"
+  },
+  "asset-batch:OSV-TEST-BASE-0005": {
+    "id": "diag-baseline-0005",
+    "duration_minutes": 50,
+    "benefit": 74,
+    "priority": 74,
+    "risk": "low"
+  }
+}

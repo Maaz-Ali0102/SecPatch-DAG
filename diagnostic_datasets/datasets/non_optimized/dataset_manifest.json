@@ -1,0 +1,21 @@
+{
+  "dataset_id": "non_optimized",
+  "synthetic_only": true,
+  "generation_seed": 20261106,
+  "inventory_package_count": 96,
+  "osv_vulnerability_count": 12,
+  "estimate_count": 96,
+  "scenario": "Dense competing remediation candidates across eight application assets",
+  "expected_notes": [
+    "The estimate profile deliberately creates competing benefit/duration trade-offs.",
+    "The input files do not encode package dependency edges; add dependency edges only through the application's actual dependency workflow.",
+    "Do not expect greedy to equal CP-SAT; independently validate feasibility and objective values."
+  ],
+  "important_contract_notes": [
+    "Inventory asset_id must equal the asset external_identifier used when registering assets.",
+    "Estimate keys must be <asset external_identifier>:<OSV vulnerability id>.",
+    "Only affected installations with a fixed version and matching estimate should become approved patch actions.",
+    "Package dependency edges are not represented in inventory_offline.json; do not invent a field for them."
+  ],
+  "asset_count": 8
+}

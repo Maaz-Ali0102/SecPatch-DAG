@@ -1,0 +1,21 @@
+{
+  "dataset_id": "dirty_but_schema_valid",
+  "synthetic_only": true,
+  "generation_seed": 20261106,
+  "inventory_package_count": 6,
+  "osv_vulnerability_count": 6,
+  "estimate_count": 4,
+  "scenario": "Schema-valid payload with semantically messy versions, missing versions and unmatched packages",
+  "expected_notes": [
+    "Invalid or missing installed versions should result in unknown applicability where the implementation supports that outcome.",
+    "Unmatched package records should not create installed-package candidates.",
+    "This dataset intentionally does not duplicate asset IDs or duplicate package rows because inventory upload rejects duplicate asset IDs within one upload."
+  ],
+  "important_contract_notes": [
+    "Inventory asset_id must equal the asset external_identifier used when registering assets.",
+    "Estimate keys must be <asset external_identifier>:<OSV vulnerability id>.",
+    "Only affected installations with a fixed version and matching estimate should become approved patch actions.",
+    "Package dependency edges are not represented in inventory_offline.json; do not invent a field for them."
+  ],
+  "asset_count": 3
+}
