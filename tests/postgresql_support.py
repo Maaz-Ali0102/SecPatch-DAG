@@ -32,7 +32,7 @@ def postgres_engine() -> Engine:
             if database != "secpatch_test":
                 pytest.fail(f"PostgreSQL tests require database secpatch_test, connected to {database!r}")
         return engine
-    except pytest.SkipTest:
+    except (pytest.skip.Exception, pytest.fail.Exception):
         raise
     except Exception as error:
         pytest.skip(f"PostgreSQL tests skipped: unable to connect ({type(error).__name__})")

@@ -9,7 +9,7 @@ from core.ingestion.versioning import compare_versions, version_in_range
 
 
 ROOT = Path(__file__).parents[1]
-DIAGNOSTIC_DATA_ROOT = ROOT.parent / "secpatch_dag_diagnostic_data" / "secpatch_dag_diagnostic_data" / "datasets"
+DIAGNOSTIC_DATA_ROOT = ROOT / "diagnostic_datasets" / "datasets"
 
 
 def fixture(name: str) -> dict:
@@ -214,14 +214,35 @@ def test_package_dependencies_do_not_create_patch_prerequisites() -> None:
     assert approved.approved_dataset.dependencies == (("npm:b", "npm:a"),)
 
 
-def test_conflicting_fixed_versions_are_not_approved() -> None:
+def test_multi_branch_ranges_pick_the_fix_for_the_installed_branch() -> None:
+    # Previously every multi-range record was treated as "conflicting" and a
+    # second branch could hide the first one. Each installation now gets the
+    # fix that closes the range it is actually in.
     result = ingest_osv({
         "vulns": [{"id": "OSV-C", "affected": [{"package": {"ecosystem": "npm", "name": "c"}, "ranges": [
             {"type": "ECOSYSTEM", "events": [{"introduced": "1.0.0"}, {"fixed": "2.0.0"}]},
             {"type": "ECOSYSTEM", "events": [{"introduced": "3.0.0"}, {"fixed": "4.0.0"}]},
         ]}]}]
-    }, {"packages": [{"asset_id": "c1", "ecosystem": "npm", "name": "c", "version": "1.5.0"}]})
+    }, {"packages": [
+        {"asset_id": "c1", "ecosystem": "npm", "name": "c", "version": "1.5.0"},
+        {"asset_id": "c2", "ecosystem": "npm", "name": "c", "version": "3.2.0"},
+        {"asset_id": "c3", "ecosystem": "npm", "name": "c", "version": "2.5.0"},
+    ]})
+    by_asset = {candidate.asset_id: candidate for candidate in result.candidates}
+    assert set(by_asset) == {"c1", "c2"}
+    assert by_asset["c1"].recommended_fixed_version == "2.0.0"
+    assert by_asset["c2"].recommended_fixed_version == "4.0.0"
     approved = approve_candidates(result, {"c1:OSV-C": {"duration_minutes": 1, "benefit": 1}})
-    assert approved.approved_dataset is not None
-    assert approved.approved_dataset.actions == ()
-    assert "conflicting_fixed_versions" in next(iter(approved.candidates)).unresolved_issues
+    assert [action.id for action in approved.approved_dataset.actions] == ["c1:OSV-C"]
+
+
+def test_coverage_counts_installations_including_unmatched_and_unaffected():
+    folder = ROOT / "diagnostic_datasets/datasets/baseline"
+    inventory = json.loads((folder / "inventory_offline.json").read_text())
+    rows = [row for row in inventory["packages"] if row["asset_id"] == "asset-api-prod"]
+    rows.append(dict(next(row for row in rows if row["name"] == "requests"), version="2.31.0"))
+    result = ingest_osv(json.loads((folder / "osv_offline.json").read_text()), {"packages": rows})
+    assert {(r["package"], r["version"], r["status"]) for r in result.package_checks} == {
+        ("requests", "2.27.0", "affected"), ("urllib3", "1.26.5", "affected"),
+        ("certifi", "2022.6.15", "no_match"), ("requests", "2.31.0", "unaffected")}
+    assert len(result.candidates) == 2

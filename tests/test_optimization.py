@@ -119,17 +119,32 @@ def test_cp_sat_blocks_cyclic_actions_and_transitive_dependents() -> None:
 
 
 def test_cp_sat_finds_solution_greedy_misses() -> None:
+    # Even with the best-single-action check, ratio greedy can miss the
+    # optimum: it takes the two best ratios (22 + 29 min) and 36 no longer fits.
+    actions = (
+        PatchAction("a", "pa", 22, 68, 68),
+        PatchAction("b", "pb", 29, 81, 81),
+        PatchAction("c", "pc", 36, 94, 94),
+    )
+    data = make_dataset(("pa", "pb", "pc"), actions)
+    greedy = run_analysis(data, 60, method="precedence_greedy")
+    exact = run_analysis(data, 60, method="cp_sat")
+    assert greedy["optimization"]["objective_value"] == 149
+    assert exact["optimization"]["objective_value"] == 162
+    assert exact["optimization"]["optimality_proven"]
+    assert exact["optimization"]["solver_status"] == "OPTIMAL"
+
+
+def test_best_single_action_check_improves_plain_ratio_greedy() -> None:
+    # Plain ratio greedy would take the 3-minute action (ratio 2.33) and stop
+    # at 7; the approximation step keeps the single 9-benefit action instead.
     actions = (
         PatchAction("better-total", "better", 4, 9, 9),
         PatchAction("higher-ratio", "small", 3, 7, 7),
     )
     data = make_dataset(("better", "small"), actions)
     greedy = run_analysis(data, 6, method="precedence_greedy")
-    exact = run_analysis(data, 6, method="cp_sat")
-    assert greedy["optimization"]["objective_value"] == 7
-    assert exact["optimization"]["objective_value"] == 9
-    assert exact["optimization"]["optimality_proven"]
-    assert exact["optimization"]["solver_status"] == "OPTIMAL"
+    assert greedy["optimization"]["objective_value"] == 9
 
 
 def test_engine_comparison_report_contains_both_methods() -> None:

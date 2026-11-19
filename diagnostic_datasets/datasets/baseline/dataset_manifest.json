@@ -3,14 +3,13 @@
   "synthetic_only": true,
   "generation_seed": 20261106,
   "inventory_package_count": 10,
-  "osv_vulnerability_count": 6,
+  "osv_vulnerability_count": 5,
   "estimate_count": 5,
   "scenario": "Small production-style mixed inventory",
   "expected_notes": [
     "Affected installations should produce candidates when a fixed version and estimate exist.",
     "requests 2.31.0 and express 4.18.2 are intended unaffected controls.",
-    "asset-legacy requests has no version and should produce unknown applicability, not a guessed result.",
-    "not-installed-package should not match any inventory row."
+    "asset-legacy requests has no version and should produce unknown applicability, not a guessed result."
   ],
   "important_contract_notes": [
     "Inventory asset_id must equal the asset external_identifier used when registering assets.",

@@ -1,0 +1,49 @@
+{
+  "description": "Each edge is dependent -> prerequisite: \"from\" needs \"to\" (\"to\" is patched first). Keys are ecosystem:name as shown in the inventory. Import on the Dependency graph tab after the inventory. Graph test plan: chain, fan-out, disconnected parts, two disjoint cycles, a larger SCC, a self-loop, and acyclic parts mixed with cyclic ones.",
+  "dependencies": [
+    {
+      "from": "PyPI:django",
+      "to": "PyPI:jinja2"
+    },
+    {
+      "from": "PyPI:jinja2",
+      "to": "PyPI:werkzeug"
+    },
+    {
+      "from": "npm:express",
+      "to": "npm:qs"
+    },
+    {
+      "from": "npm:express",
+      "to": "npm:ws"
+    },
+    {
+      "from": "npm:express",
+      "to": "npm:lodash"
+    },
+    {
+      "from": "PyPI:requests",
+      "to": "PyPI:urllib3"
+    },
+    {
+      "from": "PyPI:urllib3",
+      "to": "PyPI:requests"
+    },
+    {
+      "from": "PyPI:cryptography",
+      "to": "PyPI:pyyaml"
+    },
+    {
+      "from": "PyPI:pyyaml",
+      "to": "PyPI:pillow"
+    },
+    {
+      "from": "PyPI:pillow",
+      "to": "PyPI:cryptography"
+    },
+    {
+      "from": "npm:lodash",
+      "to": "npm:lodash"
+    }
+  ]
+}

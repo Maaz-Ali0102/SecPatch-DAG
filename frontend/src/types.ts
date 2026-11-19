@@ -1,0 +1,26 @@
+export type Project = { id: string; name: string; description?: string | null };
+export type Environment = { id: string; project_id: string; name: string; description?: string | null };
+export type Asset = { id: string; environment_id: string; name: string; external_identifier?: string; operating_system?: string };
+export type InventoryRow = { id: string; asset_id?: string; version: string | null; package?: string; ecosystem?: string };
+export type PackageCheck = { asset: string; package: string; ecosystem: string; version: string | null; status: "affected" | "unaffected" | "unknown" | "no_match"; fixes: string[] };
+export type Candidate = { id: string; candidate_key?: string; vulnerability_id?: string; aliases: string[]; package?: string; ecosystem?: string; installed_version?: string | null; fixed_version?: string | null; applicability: string; unresolved_issues: string[] };
+export type Trace = { algorithm?: string; event?: string; node?: string; nodes?: string[]; component?: string; action?: string; reason?: string; [key: string]: unknown };
+export type Graph = { nodes?: string[]; edges?: Array<{ from: string; to: string }>; strongly_connected_components?: string[][]; cyclic_components?: string[][]; blocked_packages?: string[]; topological_order?: string[]; trace?: Trace[]; dependency_analysis?: { analysis?: { blocked_nodes?: string[] } } };
+export type Action = { id: string; package_id?: string; duration_minutes: number; benefit: number; priority?: number };
+export type Analysis = {
+  comparison_id?: string; estimate_source?: string;
+  method?: string; window_minutes?: number; selected_count?: number; used_minutes?: number;
+  solver_status?: string; objective_value?: number;
+  run_id?: string; status?: string; created_at?: string; graph?: Graph;
+  optimization?: { half_bound_applies?: boolean; method?: string; solver_status?: string; optimality_proven?: boolean; objective_value?: number; selected_actions?: Action[]; deferred_actions?: string[]; blocked_actions?: string[]; total_duration_minutes?: number; runtime_ms?: number; comparison?: { objective_delta?: number } };
+  schedule?: { total_duration_minutes?: number; entries?: Array<{ action_id: string; start_minute: number; finish_minute: number; duration_minutes: number }> };
+  validation?: { valid?: boolean; violations?: string[]; warnings?: string[] };
+  persistence?: { analysis_run_id: string; input_snapshot?: Record<string, unknown> };
+  configuration?: { window_minutes?: number };
+  estimate_review?: { applied?: string[]; ignored?: Record<string, string> };
+  trace?: Trace[];
+};
+export type Summary = { package_checks?: PackageCheck[]; vulnerabilities: number; candidates: number; candidate_details: Candidate[]; issues: Array<{ code: string; message: string }> };
+export type Comparison = { greedy: Analysis; dp: Analysis; cp_sat: Analysis };
+export type Estimates = Record<string, { duration_minutes: number; benefit: number; priority?: number; [key: string]: unknown }>;
+export type Tab = "overview" | "assets" | "vulnerabilities" | "graph" | "optimization" | "history" | "cep";

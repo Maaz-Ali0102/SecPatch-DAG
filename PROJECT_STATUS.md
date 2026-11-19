@@ -1,5 +1,10 @@
 # SecPatch-DAG Project Status
 
+## Current verification — 18 November 2026
+
+The current checkout passed 140 tests with PostgreSQL 16.2 and built the React production bundle. Migration head is 0003_advisory_check. Optimization compares Greedy, DP and CP-SAT. Maintenance study handles two windows. The graph order view lists cycle-blocked packages separately. The following dated entries document earlier milestones. See [README](README.md) and the [course report](docs/SecPatch-DAA-Report.pdf).
+
+
 Last updated: 2026-11-06
 
 Phase 5C: PostgreSQL integrity and test coverage are complete. The headless core remains database-independent.
@@ -11,6 +16,24 @@ CP-SAT or precedence-greedy optimization, proposed plan review, and historical
 analysis retrieval.
 
 **PROJECT STATUS: READY FOR ACADEMIC DEMONSTRATION**
+
+## QA pass (2026-11-08)
+
+A QA pass found and fixed 31 defects, including three that produced wrong
+security answers (multi-branch OSV ranges, multi-package OSV records, and
+ranges without `introduced` were reported as unaffected) and missing estimate
+validation on the persisted-plan path the dashboard uses. See `QA_REPORT.md`
+for the full list, reproduction and verification. After the pass: Python
+suite 102 passed, PostgreSQL suite 6 passed, frontend build passed.
+
+A follow-up input-validation audit (2026-11-17) fixed 10 more issues (bugs 32-41):
+unchecked field lengths and control characters that caused 500s or leaked SQL,
+missing size limits on imports, blank identifiers, and CSV formula injection in
+the exports. Python suite now 126 passed.
+
+Same day: delete for projects/environments/servers (soft delete, history kept),
+dashboard import of per-environment package dependencies (migration 0002),
+clearer greedy labels and a 24-hour window limit (bugs 42-45). Suite: 132 passed.
 
 ## Phase 5 implementation
 

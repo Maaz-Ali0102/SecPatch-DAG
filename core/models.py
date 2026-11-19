@@ -4,6 +4,12 @@ from dataclasses import dataclass
 from typing import Any
 
 
+# Upper bounds keep every CP-SAT coefficient and sum inside 64-bit integers.
+# Durations/benefits beyond these are not realistic planning inputs.
+MAX_ESTIMATE_VALUE = 1_000_000_000
+MAX_WINDOW_MINUTES = 1_000_000_000
+
+
 @dataclass(frozen=True)
 class PatchAction:
     id: str
@@ -14,6 +20,7 @@ class PatchAction:
     prerequisites: tuple[str, ...] = ()
     risk: str = "medium"
     mandatory: bool = False
+    asset_id: str = ""
 
 
 @dataclass(frozen=True)
@@ -66,6 +73,13 @@ class Dataset:
             prerequisites = item.get("prerequisites", [])
             if not isinstance(prerequisites, list) or any(not isinstance(value, str) for value in prerequisites):
                 raise ValueError(f"Action {item['id']} prerequisites must be an array of strings")
+            if not isinstance(item["id"], str) or not isinstance(item["package_id"], str):
+                raise ValueError("Action id and package_id must be strings")
+            mandatory = item.get("mandatory", False)
+            if not isinstance(mandatory, bool):
+                raise ValueError(f"Action {item['id']} mandatory must be true or false")
+            if not isinstance(item.get("asset_id", ""), str):
+                raise ValueError("asset_id must be a string")
             actions_list.append(PatchAction(
                 id=item["id"],
                 package_id=item["package_id"],
@@ -74,7 +88,8 @@ class Dataset:
                 priority=priority,
                 prerequisites=tuple(prerequisites),
                 risk=str(item.get("risk", "medium")),
-                mandatory=bool(item.get("mandatory", False)),
+                mandatory=mandatory,
+                asset_id=item.get("asset_id", ""),
             ))
         actions = tuple(actions_list)
         action_ids = {action.id for action in actions}
@@ -91,6 +106,8 @@ class Dataset:
                 raise ValueError(f"Action {action.id} duration must be greater than zero")
             if action.benefit < 0 or action.priority < 0:
                 raise ValueError(f"Action {action.id} benefit and priority must be non-negative")
+            if max(action.duration_minutes, action.benefit, action.priority) > MAX_ESTIMATE_VALUE:
+                raise ValueError(f"Action {action.id} duration, benefit and priority must be at most {MAX_ESTIMATE_VALUE}")
             if len(action.prerequisites) != len(set(action.prerequisites)):
                 raise ValueError(f"Action {action.id} has duplicate prerequisites")
             if action.id in action.prerequisites or any(value not in action_ids for value in action.prerequisites):
@@ -107,20 +124,25 @@ def _strict_int(value: Any, field_name: str) -> int:
 
 
 def _validate_action_acyclic(actions: tuple[PatchAction, ...]) -> None:
+    """Reject prerequisite cycles (iterative DFS, safe for long chains)."""
     action_map = {action.id: action for action in actions}
-    visiting: set[str] = set()
-    visited: set[str] = set()
-
-    def visit(action_id: str) -> None:
-        if action_id in visiting:
-            raise ValueError("Patch action prerequisites contain a cycle")
-        if action_id in visited:
-            return
-        visiting.add(action_id)
-        for prerequisite in action_map[action_id].prerequisites:
-            visit(prerequisite)
-        visiting.remove(action_id)
-        visited.add(action_id)
-
+    state: dict[str, int] = {}  # 1 = on current path, 2 = finished
     for action in actions:
-        visit(action.id)
+        if action.id in state:
+            continue
+        state[action.id] = 1
+        work: list[tuple[str, int]] = [(action.id, 0)]
+        while work:
+            current, position = work[-1]
+            prerequisites = action_map[current].prerequisites
+            if position < len(prerequisites):
+                work[-1] = (current, position + 1)
+                prerequisite = prerequisites[position]
+                if state.get(prerequisite) == 1:
+                    raise ValueError("Patch action prerequisites contain a cycle")
+                if prerequisite not in state:
+                    state[prerequisite] = 1
+                    work.append((prerequisite, 0))
+                continue
+            state[current] = 2
+            work.pop()

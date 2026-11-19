@@ -1,0 +1,25 @@
+{
+  "description": "Each edge is dependent -> prerequisite: \"from\" needs \"to\" (\"to\" is patched first). Keys are ecosystem:name as shown in the inventory. Import on the Dependency graph tab after the inventory.",
+  "dependencies": [
+    {
+      "from": "PyPI:requests",
+      "to": "PyPI:urllib3"
+    },
+    {
+      "from": "PyPI:requests",
+      "to": "PyPI:certifi"
+    },
+    {
+      "from": "PyPI:urllib3",
+      "to": "PyPI:cryptography"
+    },
+    {
+      "from": "PyPI:jinja2",
+      "to": "PyPI:pyyaml"
+    },
+    {
+      "from": "npm:express",
+      "to": "npm:lodash"
+    }
+  ]
+}

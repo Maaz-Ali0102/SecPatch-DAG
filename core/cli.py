@@ -13,7 +13,7 @@ def main() -> None:
     parser.add_argument("--input", required=True, type=Path)
     parser.add_argument("--window", required=True, type=int)
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--method", choices=("precedence_greedy", "cp_sat"), default="precedence_greedy")
+    parser.add_argument("--method", choices=("precedence_greedy", "dynamic_programming", "cp_sat"), default="precedence_greedy")
     args = parser.parse_args()
     dataset = Dataset.from_dict(json.loads(args.input.read_text(encoding="utf-8")))
     result = run_analysis(dataset, args.window, args.method)

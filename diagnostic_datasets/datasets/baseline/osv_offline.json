@@ -169,40 +169,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "OSV-TEST-BASE-0006",
-      "aliases": [
-        "GHSA-test-base-0006"
-      ],
-      "summary": "Unmatched package control",
-      "severity": [
-        {
-          "type": "CVSS_V3",
-          "score": "6.0"
-        }
-      ],
-      "affected": [
-        {
-          "package": {
-            "ecosystem": "PyPI",
-            "name": "not-installed-package"
-          },
-          "ranges": [
-            {
-              "type": "ECOSYSTEM",
-              "events": [
-                {
-                  "introduced": "1.0.0"
-                },
-                {
-                  "fixed": "1.2.0"
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ]
 }

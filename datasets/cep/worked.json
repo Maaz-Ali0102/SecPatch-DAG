@@ -1,0 +1,196 @@
+{
+  "packages": [
+    "identity",
+    "tokens",
+    "directory",
+    "policy",
+    "crypto",
+    "base",
+    "gateway",
+    "router",
+    "tls",
+    "common",
+    "worker",
+    "queue"
+  ],
+  "dependencies": [
+    {
+      "from": "identity",
+      "to": "tokens"
+    },
+    {
+      "from": "identity",
+      "to": "directory"
+    },
+    {
+      "from": "identity",
+      "to": "policy"
+    },
+    {
+      "from": "identity",
+      "to": "crypto"
+    },
+    {
+      "from": "tokens",
+      "to": "directory"
+    },
+    {
+      "from": "tokens",
+      "to": "policy"
+    },
+    {
+      "from": "tokens",
+      "to": "crypto"
+    },
+    {
+      "from": "tokens",
+      "to": "base"
+    },
+    {
+      "from": "directory",
+      "to": "policy"
+    },
+    {
+      "from": "directory",
+      "to": "crypto"
+    },
+    {
+      "from": "directory",
+      "to": "base"
+    },
+    {
+      "from": "policy",
+      "to": "crypto"
+    },
+    {
+      "from": "policy",
+      "to": "base"
+    },
+    {
+      "from": "crypto",
+      "to": "base"
+    },
+    {
+      "from": "gateway",
+      "to": "router"
+    },
+    {
+      "from": "gateway",
+      "to": "tls"
+    },
+    {
+      "from": "router",
+      "to": "tls"
+    },
+    {
+      "from": "router",
+      "to": "common"
+    },
+    {
+      "from": "tls",
+      "to": "common"
+    },
+    {
+      "from": "worker",
+      "to": "queue"
+    }
+  ],
+  "actions": [
+    {
+      "id": "patch-identity",
+      "package_id": "identity",
+      "asset_id": "demo-host",
+      "duration_minutes": 8,
+      "benefit": 23,
+      "priority": 9
+    },
+    {
+      "id": "patch-tokens",
+      "package_id": "tokens",
+      "asset_id": "demo-host",
+      "duration_minutes": 7,
+      "benefit": 19,
+      "priority": 7
+    },
+    {
+      "id": "patch-directory",
+      "package_id": "directory",
+      "asset_id": "demo-host",
+      "duration_minutes": 5,
+      "benefit": 13,
+      "priority": 5
+    },
+    {
+      "id": "patch-policy",
+      "package_id": "policy",
+      "asset_id": "demo-host",
+      "duration_minutes": 6,
+      "benefit": 15,
+      "priority": 6
+    },
+    {
+      "id": "patch-crypto",
+      "package_id": "crypto",
+      "asset_id": "demo-host",
+      "duration_minutes": 4,
+      "benefit": 9,
+      "priority": 3
+    },
+    {
+      "id": "patch-base",
+      "package_id": "base",
+      "asset_id": "demo-host",
+      "duration_minutes": 3,
+      "benefit": 6,
+      "priority": 2
+    },
+    {
+      "id": "patch-gateway",
+      "package_id": "gateway",
+      "asset_id": "demo-host",
+      "duration_minutes": 9,
+      "benefit": 24,
+      "priority": 10
+    },
+    {
+      "id": "patch-router",
+      "package_id": "router",
+      "asset_id": "demo-host",
+      "duration_minutes": 6,
+      "benefit": 16,
+      "priority": 7
+    },
+    {
+      "id": "patch-tls",
+      "package_id": "tls",
+      "asset_id": "demo-host",
+      "duration_minutes": 5,
+      "benefit": 11,
+      "priority": 4
+    },
+    {
+      "id": "patch-common",
+      "package_id": "common",
+      "asset_id": "demo-host",
+      "duration_minutes": 2,
+      "benefit": 4,
+      "priority": 1
+    },
+    {
+      "id": "patch-worker",
+      "package_id": "worker",
+      "asset_id": "demo-host",
+      "duration_minutes": 12,
+      "benefit": 27,
+      "priority": 8
+    },
+    {
+      "id": "patch-queue",
+      "package_id": "queue",
+      "asset_id": "demo-host",
+      "duration_minutes": 25,
+      "benefit": 40,
+      "priority": 5
+    }
+  ]
+}

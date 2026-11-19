@@ -33,10 +33,11 @@ class ProjectRepository:
         return value
 
     def get(self, session: Session, project_id: uuid.UUID) -> Project | None:
-        return session.get(Project, project_id)
+        value = session.get(Project, project_id)
+        return value if value is not None and value.archived_at is None else None
 
     def list(self, session: Session) -> list[Project]:
-        return list(session.scalars(select(Project).order_by(Project.name)))
+        return list(session.scalars(select(Project).where(Project.archived_at.is_(None)).order_by(Project.name)))
 
     def update(self, session: Session, value: Project, name: str | None, description: str | None) -> Project:
         if name is not None:
@@ -55,10 +56,11 @@ class EnvironmentRepository:
         return value
 
     def get(self, session: Session, environment_id: uuid.UUID) -> Environment | None:
-        return session.get(Environment, environment_id)
+        value = session.get(Environment, environment_id)
+        return value if value is not None and value.archived_at is None else None
 
     def list(self, session: Session, project_id: uuid.UUID) -> list[Environment]:
-        return list(session.scalars(select(Environment).where(Environment.project_id == project_id).order_by(Environment.name)))
+        return list(session.scalars(select(Environment).where(Environment.project_id == project_id, Environment.archived_at.is_(None)).order_by(Environment.name)))
 
     def update(self, session: Session, value: Environment, name: str | None, description: str | None) -> Environment:
         if name is not None:
@@ -77,14 +79,17 @@ class AssetRepository:
         return value
 
     def get(self, session: Session, asset_id: uuid.UUID) -> Asset | None:
-        return session.get(Asset, asset_id)
+        value = session.get(Asset, asset_id)
+        return value if value is not None and value.archived_at is None else None
 
     def list(self, session: Session, environment_id: uuid.UUID) -> list[Asset]:
-        return list(session.scalars(select(Asset).where(Asset.environment_id == environment_id).order_by(Asset.name)))
+        return list(session.scalars(select(Asset).where(Asset.environment_id == environment_id, Asset.archived_at.is_(None)).order_by(Asset.name)))
 
     def update(self, session: Session, asset: Asset, **changes: Any) -> Asset:
         for key in ("name", "external_identifier", "operating_system", "metadata_json"):
-            if key in changes and changes[key] is not None:
+            # operating_system may be cleared on purpose (None); the other
+            # fields are only changed when a value was supplied.
+            if key in changes and (changes[key] is not None or key == "operating_system"):
                 setattr(asset, key, changes[key])
         session.flush()
         return asset
@@ -145,14 +150,23 @@ class VulnerabilityRepository:
             vulnerability_rows[record.vulnerability_id] = row
         candidates: list[RemediationCandidate] = []
         for candidate in result.candidates:
-            vulnerability = vulnerability_rows.get(candidate.vulnerability_id) or session.scalar(select(Vulnerability).where(Vulnerability.source_id == candidate.vulnerability_id))
+            vulnerability = vulnerability_rows.get(candidate.vulnerability_id) or session.scalar(select(Vulnerability).where(Vulnerability.source == candidate.source, Vulnerability.source_id == candidate.vulnerability_id))
             asset = asset_lookup.get(candidate.asset_id)
             if vulnerability is None or asset is None:
                 continue
             package = session.scalar(select(Package).where(Package.ecosystem == candidate.package.ecosystem, Package.package_name == candidate.package.name))
             if package is None:
                 continue
-            installed = session.scalar(select(InstalledPackage).where(InstalledPackage.asset_id == asset.id, InstalledPackage.package_id == package.id))
+            # Match the exact installed version: an asset may hold several
+            # versions of one package, and the candidate belongs to one of them.
+            installed = session.scalar(select(InstalledPackage).where(
+                InstalledPackage.asset_id == asset.id,
+                InstalledPackage.package_id == package.id,
+                InstalledPackage.version_key == (candidate.installed_version or "<unknown>"),
+            )) or session.scalar(select(InstalledPackage).where(
+                InstalledPackage.asset_id == asset.id,
+                InstalledPackage.package_id == package.id,
+            ).order_by(InstalledPackage.version_key))
             if installed is None:
                 continue
             row = session.scalar(select(RemediationCandidate).where(

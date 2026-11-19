@@ -1,8 +1,27 @@
 from __future__ import annotations
 
+from collections import defaultdict
+from dataclasses import replace
+from fractions import Fraction
 from typing import Any
 
 from .models import PatchAction
+
+
+def ordered_actions(actions, selected_ids, package_prerequisites):
+    """Explicit requirements force selection. Package order applies to selected patches on one asset."""
+    by_package = defaultdict(list)
+    for key in selected_ids:
+        action = actions[key]
+        by_package[action.asset_id, action.package_id].append(key)
+    result = dict(actions)
+    for key in selected_ids:
+        action = actions[key]
+        required = set(action.prerequisites)
+        for package in package_prerequisites.get(action.package_id, ()):
+            required.update(by_package[action.asset_id, package])
+        result[key] = replace(action, prerequisites=tuple(sorted(required)))
+    return result
 
 
 def schedule_actions(
@@ -30,7 +49,7 @@ def schedule_actions(
             if action_id in actions
             and all(prerequisite in selected_ids and prerequisite not in remaining for prerequisite in actions[action_id].prerequisites)
         ]
-        ready.sort(key=lambda action: (-action.priority / action.duration_minutes, action.id))
+        ready.sort(key=lambda action: (-Fraction(action.priority, action.duration_minutes), action.id))
         if not ready:
             violations.append("Selected actions contain an unresolved prerequisite cycle or missing action")
             trace.append({"algorithm": "scheduler", "event": "blocked", "actions": sorted(remaining)})
